@@ -5,7 +5,7 @@ const slideHtml = `
 
 
     <!-- center: title -->
-    <div style="margin-top: 40px;">
+    <div style="position:absolute; top:50%; left:130px; right:80px; transform:translateY(-50%);">
       <div class="eyebrow" style="margin-bottom: 28px;">A Storytelling Gifting Studio</div>
 
       <h1 class="serif-display" style="font-size: 132px; line-height: 0.95; margin: 0 0 8px; color: var(--ink);">
@@ -26,7 +26,7 @@ const slideHtml = `
     </div>
 
     <!-- bottom: tagline strip -->
-    <div style="display:flex; align-items:center; gap:28px; padding-top: 36px;">
+    <div style="position:absolute; left:130px; right:80px; bottom:100px; display:flex; align-items:center; gap:28px;">
       <div style="font-family:'Inter'; font-size:18px; letter-spacing:0.3em; text-transform:uppercase; color:var(--ink); font-weight:600;">Company Introduction</div>
     </div>
   </div>
