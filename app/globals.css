@@ -1,0 +1,301 @@
+/* ==========================================================
+   Lucky PandaTreats — Company Brochure
+   French-marketing aesthetic system
+   ========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --cream:        #FBF4ED;
+  --cream-2:      #F6EBDC;
+  --paper:        #FFFDF8;
+  --rose-tint:    #F6DCDF;
+  --rose-tint-2:  #F4CFD3;
+  --magenta:      #C8395F;       /* flyer accent */
+  --magenta-deep: #A82547;
+  --panda-red:    #D4202A;       /* box red */
+  --panda-red-2:  #B61820;
+  --ink:          #2B1F1A;       /* text */
+  --ink-soft:     #5C4A41;
+  --gold:         #B8935A;
+  --gold-soft:    #D9BB8C;
+  --hairline:     rgba(43,31,26,0.18);
+}
+
+/* ----------  Stage / global  ---------- */
+deck-stage { background: #1a1612; }
+
+section[data-label] {
+  font-family: 'Inter', sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  overflow: hidden;
+  position: relative;
+}
+
+/* paper grain — subtle, on every cream slide */
+.paper-grain::before {
+  content: "";
+  position: absolute; inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(rgba(184,147,90,0.045) 1px, transparent 1px),
+    radial-gradient(rgba(168,37,71,0.03) 1px, transparent 1px);
+  background-size: 7px 7px, 11px 11px;
+  background-position: 0 0, 3px 4px;
+  z-index: 0;
+}
+.paper-grain > * { position: relative; z-index: 1; }
+
+/* ----------  Type roles  ---------- */
+.script-display {
+  font-family: 'Allura', cursive;
+  font-weight: 400;
+  color: var(--magenta);
+  line-height: 0.9;
+  letter-spacing: -0.01em;
+}
+.serif-display {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.serif-italic {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--magenta);
+}
+.eyebrow.ink { color: var(--ink); }
+.body-lg { font-size: 30px; line-height: 1.5; color: var(--ink-soft); font-weight: 400; }
+.body { font-size: 26px; line-height: 1.55; color: var(--ink-soft); }
+.body-tight { font-size: 24px; line-height: 1.5; color: var(--ink-soft); }
+
+/* ----------  Banner ribbon  ---------- */
+.ribbon {
+  display: inline-flex;
+  padding: 14px 36px 16px;
+  background: var(--magenta);
+  color: var(--cream);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  font-size: 22px;
+  text-transform: uppercase;
+  position: relative;
+  clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 20px 100%, 0 50%);
+}
+
+/* ----------  Postal stamp  ---------- */
+.stamp {
+  width: 168px; height: 168px;
+  border-radius: 50%;
+  border: 2px solid var(--magenta);
+  display: grid; place-items: center;
+  text-align: center;
+  color: var(--magenta);
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1.2;
+  position: relative;
+  background: var(--paper);
+  transform: rotate(-8deg);
+}
+.stamp::before, .stamp::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed var(--magenta);
+}
+.stamp::before { inset: 8px; opacity: 0.6; }
+.stamp::after  { inset: 0; border-style: dotted; opacity: 0; }
+.stamp .heart {
+  display: block;
+  font-size: 22px;
+  margin: 6px 0 4px;
+}
+
+/* ----------  Section divider (fleur + dots)  ---------- */
+.fleur {
+  display: flex; align-items: center; justify-content: center;
+  gap: 14px;
+  color: var(--magenta);
+  font-family: 'Playfair Display', serif;
+}
+.fleur::before, .fleur::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 70px; height: 1px;
+  background: var(--magenta);
+  opacity: 0.55;
+}
+.fleur span { font-size: 22px; line-height: 1; }
+
+/* ----------  Frames  ---------- */
+.frame {
+  position: relative;
+  background: var(--paper);
+  border: 1px solid var(--hairline);
+  box-shadow: 0 30px 60px -30px rgba(43,31,26,0.18);
+}
+.frame.gold { border: 1px solid var(--gold-soft); }
+.frame.rose { background: var(--rose-tint); border: 1px solid rgba(200,57,95,0.28); }
+
+/* corner ornament */
+.corner-orn::before, .corner-orn::after {
+  content: "";
+  position: absolute;
+  width: 36px; height: 36px;
+  border: 1.5px solid var(--magenta);
+  opacity: 0.7;
+}
+.corner-orn::before { top: 14px; left: 14px;  border-right: 0; border-bottom: 0; }
+.corner-orn::after  { bottom: 14px; right: 14px; border-left: 0; border-top: 0; }
+
+/* ----------  Image holders ---------- */
+.photo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo-frame {
+  border: 8px solid var(--paper);
+  box-shadow: 0 24px 60px -24px rgba(43,31,26,0.35);
+}
+
+/* ----------  Buttons / CTA  ---------- */
+.cta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 44px;
+  background: var(--magenta);
+  color: var(--paper);
+  border-radius: 999px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 22px;
+  border: 2px solid var(--magenta);
+  box-shadow: 0 14px 30px -10px rgba(168,37,71,0.45);
+}
+
+/* ----------  Pricing tier card  ---------- */
+.tier {
+  background: var(--paper);
+  border: 1px solid var(--hairline);
+  padding: 56px 48px 52px;
+  display: flex; flex-direction: column;
+  position: relative;
+}
+.tier.featured {
+  background: var(--paper);
+  border: 2px solid var(--magenta);
+  transform: translateY(-12px);
+}
+.tier .tier-tag {
+  position: absolute; top: -16px; left: 50%; transform: translateX(-50%);
+  background: var(--magenta); color: var(--paper);
+  padding: 8px 22px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px; font-weight: 700;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  border-radius: 4px;
+}
+
+/* ----------  Map dot list (where panda goes next) ---------- */
+.country-tile {
+  background-size: cover;
+  background-position: center;
+  border: 1px solid var(--hairline);
+  position: relative;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  overflow: hidden;
+}
+.country-tile::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(43,31,26,0.0) 35%, rgba(43,31,26,0.78) 100%);
+}
+.country-tile > * { position: relative; z-index: 1; }
+
+/* ----------  Hand annotations / scribble underline  ---------- */
+.scribble {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14'><path d='M2 9 C 40 1, 80 13, 120 6 S 190 4, 198 9' stroke='%23C8395F' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 100% 14px;
+  padding-bottom: 16px;
+}
+
+/* ----------  small icon dots used in feature rows  ---------- */
+.dot-mark {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: var(--magenta);
+  display: inline-block;
+  margin-right: 16px;
+  flex: 0 0 auto;
+}
+
+/* ----------  paw bullet (brand voice) ---------- */
+.paw {
+  display: inline-flex;
+  width: 34px; height: 34px;
+  align-items: center; justify-content: center;
+  flex: 0 0 auto;
+}
+
+body {
+  margin: 0;
+  background: #1a1612;
+}
+
+.paw-svg { width: 100%; height: 100%; }
+.paw-svg path { fill: var(--magenta); }
+.paw-svg.cream path { fill: var(--cream); }
+.paw-svg.gold path { fill: var(--gold); }
+
+.check {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 auto;
+  color: var(--magenta);
+}
+
+.qr-box {
+  width: 220px; height: 220px;
+  background:
+    conic-gradient(from 0deg, var(--ink) 0 25%, var(--paper) 0 50%, var(--ink) 0 75%, var(--paper) 0 100%) center/40px 40px,
+    var(--paper);
+  border: 8px solid var(--paper);
+  box-shadow: 0 8px 24px -10px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.qr-box::after {
+  content: "QR";
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  color: var(--paper);
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: 0.22em;
+  background: rgba(43,31,26,0.85);
+  width: 60px; height: 60px;
+  border-radius: 8px;
+  margin: auto;
+}
