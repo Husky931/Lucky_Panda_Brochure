@@ -9,7 +9,7 @@ export default function Slide03GlobalJourney() {
       }}
     >
       <Image
-        src="/slide_3.png"
+        src="/slide_33.jpg"
         alt="Global journey slide"
         fill
         sizes="100vw"

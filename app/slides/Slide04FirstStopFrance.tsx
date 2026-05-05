@@ -1,45 +1,43 @@
 const slideHtml = `
-  <!-- left: text panel -->
-  <div style="padding: 140px 90px 140px 130px; display:flex; flex-direction:column; justify-content:center; position:relative;">
-    <div style="font-family:'Inter'; font-size: 22px; font-weight:600; letter-spacing:0.32em; text-transform:uppercase; color: var(--rose-tint-2); margin-bottom: 28px;">
-      First Stop
+  <div style="padding: 126px 88px 112px 130px; display:flex; flex-direction:column; justify-content:center;">
+    <div class="eyebrow" style="margin-bottom: 26px;">First Stop</div>
+
+    <div style="margin-bottom: 24px;">
+      <span class="serif-italic" style="font-size:62px; color: var(--ink); line-height:1.1;">Bonjour,</span><br/>
+      <span class="script-display" style="font-size:166px; line-height:0.82; display:inline-block; margin-top:-12px; transform:translateX(8px);">France</span>
     </div>
 
-    <h2 class="script-display" style="font-size: 280px; line-height: 0.85; margin: 0 0 0; color: var(--paper);">
-      France
-    </h2>
 
-    <div class="fleur" style="margin: 36px 0 36px; max-width: 480px; justify-content: flex-start;">
-      <span style="color: var(--rose-tint-2);"><svg width="24" height="24"><use href="#fleur"/></svg></span>
-    </div>
+    <p class="body-lg" style="max-width: 640px; margin: 0 0 34px; font-style: italic;">
+      A morning in Lyon. The smell of fresh butter, the clink of a coffee cup,
+      the slow click of shoes on cobblestone.
+    </p>
 
-    <p class="serif-italic" style="font-size: 36px; line-height: 1.4; color: var(--rose-tint); max-width: 560px; margin: 0 0 28px;">
-      A morning in Lyon. The smell of fresh butter,
-      the clink of a tin coffee cup, the slow click
-      of shoes on cobblestone.
-    </p>
-    <p class="body" style="color: rgba(251,244,237,0.7); max-width: 540px; margin: 0;">
-      Our first journey leaves from a small bakery in the 7ème, follows the Saône,
-      and arrives in your office wrapped in red.
-    </p>
   </div>
 
-  <!-- right: cinematic photo (use box-in-livingroom because it has cinematic warm light, or fall back) -->
-  <div style="position:relative;">
-    <div class="photo" style="
-      position:absolute; inset:0;
-      background-image:
-        linear-gradient(110deg, rgba(43,22,17,0.55) 0%, rgba(43,22,17,0) 40%),
-        linear-gradient(0deg, rgba(43,22,17,0.45) 0%, rgba(43,22,17,0) 35%),
-        url('assets/box-in-livingroom.jpg');
-    "></div>
-    <!-- caption -->
-    <div style="position:absolute; bottom: 60px; right: 80px; text-align:right;">
-      <div style="font-family:'Playfair Display'; font-style:italic; font-size: 26px; color: var(--paper); opacity: 0.95;">
-        — Bonjour, Shanghai
-      </div>
-      <div style="font-family:'Inter'; font-size: 14px; letter-spacing:0.32em; text-transform:uppercase; color: var(--rose-tint-2); margin-top: 8px;">
-        a small piece of France, by post
+  <div style="padding: 112px 118px 118px 28px; display:flex; align-items:center;">
+    <div style="position:relative; width:100%;">
+      <div class="photo photo-frame" style="
+        width:100%;
+        aspect-ratio: 990 / 1280;
+        background-image:url('/assets/france.jpg');
+        background-position:center;
+        transform:rotate(2deg);
+      "></div>
+
+      <div style="
+        position:absolute;
+        left:-54px;
+        bottom:-34px;
+        width:424px;
+        background:var(--paper);
+        padding:20px 32px 22px;
+        border:1px solid var(--hairline);
+        transform:rotate(-3deg);
+        box-shadow:0 18px 34px -18px rgba(43,31,26,0.26);
+      ">
+        <div style="font-family:'Caveat'; font-size:34px; line-height:1; color:var(--magenta);">French-inspired snack box</div>
+        <div style="font-family:'Inter'; font-size:14px; letter-spacing:0.22em; text-transform:uppercase; color:var(--ink-soft); margin-top:8px;">sweet and savory treats</div>
       </div>
     </div>
   </div>
@@ -49,12 +47,11 @@ export default function Slide04FirstStopFrance() {
   return (
     <section
       data-label="04 First Stop France"
+      className="paper-grain"
       style={{
-        background: "linear-gradient(180deg, #2b1611 0%, #4a1a1f 50%, #2b1611 100%)",
-        color: "var(--paper)",
         display: "grid",
-        gridTemplateColumns: "1fr 1.15fr",
-        overflow: "hidden",
+        gridTemplateColumns: "0.86fr 1.14fr",
+        background: "var(--cream)",
       }}
       dangerouslySetInnerHTML={{ __html: slideHtml }}
     />
