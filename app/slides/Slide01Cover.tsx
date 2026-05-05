@@ -2,20 +2,7 @@ const slideHtml = `
   <!-- Left: typography composition -->
   <div style="padding: 110px 80px 100px 130px; display:flex; flex-direction:column; justify-content:space-between; position:relative;">
     <!-- top: stamp + meta -->
-    <div style="display:flex; align-items:center; gap:36px;">
-      <div class="stamp">
-        <div>
-          Fait avec
-          <span class="heart" style="color:var(--magenta);">
-            <svg width="20" height="20"><use href="#heart"/></svg>
-          </span>
-          Pour Vous
-        </div>
-      </div>
-      <div style="font-family: 'Inter'; font-size: 18px; letter-spacing: 0.32em; color: var(--ink-soft); text-transform: uppercase;">
-        Shanghai · Est. 2025
-      </div>
-    </div>
+
 
     <!-- center: title -->
     <div style="margin-top: 40px;">
@@ -39,10 +26,8 @@ const slideHtml = `
     </div>
 
     <!-- bottom: tagline strip -->
-    <div style="display:flex; align-items:center; gap:28px; padding-top: 36px; border-top: 1px solid var(--hairline);">
+    <div style="display:flex; align-items:center; gap:28px; padding-top: 36px;">
       <div style="font-family:'Inter'; font-size:18px; letter-spacing:0.3em; text-transform:uppercase; color:var(--ink); font-weight:600;">Company Introduction</div>
-      <div style="flex:1; height:1px; background: var(--hairline);"></div>
-      <div style="font-family:'Playfair Display'; font-style:italic; font-size:22px; color:var(--magenta);">No. 01 / 2026</div>
     </div>
   </div>
 
