@@ -17,6 +17,8 @@ Each brochure page is its own component in `app/slides/`:
 
 - `Slide01Cover.tsx`
 - `Slide02WhoWeAre.tsx`
+- `Slide03WhoWeAre.tsx`
+- `Slide04WhatWeBelieve.tsx`
 - `Slide03GlobalJourney.tsx`
 - `Slide04FirstStopFrance.tsx`
 - `Slide05TheFrenchBox.tsx`

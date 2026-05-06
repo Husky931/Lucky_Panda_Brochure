@@ -47,7 +47,7 @@ const slideHtml = `
 export default function Slide11Bespoke() {
   return (
     <section
-      data-label="12 Bespoke"
+      data-label="13 Bespoke"
       className="paper-grain"
       style={{
         background: "linear-gradient(180deg, var(--rose-tint) 0%, var(--cream) 100%)",

@@ -118,7 +118,7 @@ const slideHtml = `
 export default function Slide09FutureCountries() {
   return (
     <section
-      data-label="10 Future Countries"
+      data-label="11 Future Countries"
       style={{
         background: "var(--cream-2)",
         padding: "110px 130px",
