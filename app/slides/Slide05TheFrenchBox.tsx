@@ -53,7 +53,7 @@ const slideHtml = `
 export default function Slide05TheFrenchBox() {
   return (
     <section
-      data-label="05 The French Box"
+      data-label="06 The French Box"
       style={{
         background: "var(--cream)",
         display: "grid",

@@ -1,5 +1,6 @@
 import Slide01Cover from "./Slide01Cover";
 import Slide02WhoWeAre from "./Slide02WhoWeAre";
+import Slide03WhoWeAre from "./Slide03WhoWeAre";
 import Slide03GlobalJourney from "./Slide03GlobalJourney";
 import Slide04FirstStopFrance from "./Slide04FirstStopFrance";
 import Slide05TheFrenchBox from "./Slide05TheFrenchBox";
@@ -16,6 +17,7 @@ import Slide14Contact from "./Slide14Contact";
 export const slides = [
   Slide01Cover,
   Slide02WhoWeAre,
+  Slide03WhoWeAre,
   Slide03GlobalJourney,
   Slide04FirstStopFrance,
   Slide05TheFrenchBox,

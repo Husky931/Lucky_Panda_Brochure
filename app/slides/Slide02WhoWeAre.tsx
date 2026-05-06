@@ -42,37 +42,12 @@ const slideHtml = `
     </div>
   </div>
 
-  <!-- bottom-right: story callout -->
-  <div style="
-    position:absolute;
-    z-index:2;
-    right:42px;
-    bottom:38px;
-    width:720px;
-    min-height:356px;
-    padding:70px 88px 72px 96px;
-    border-radius:50%;
-    background:#faf4ed;
-    border:1px solid rgba(200,57,95,0.2);
-    box-shadow:0 28px 70px -34px rgba(43,31,26,0.42), inset 0 0 0 10px rgba(255,253,248,0.52);
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-  ">
-      <p style="max-width:540px; margin:0; margin-left: 6px; font-family:'Cormorant Garamond'; font-size:32px; line-height:1.22; color:var(--ink-soft); font-style:italic; ">
-        <span style="font-family:'Playfair Display'; font-size:37px; line-height:1; color:var(--ink); font-style:italic;">Lucky Panda</span>
-        is a creative gifting studio in Shanghai. We design experiential,
-        story-driven events that companies use to connect their teams
-        <span style="color:var(--magenta);"> — gifts that feel like an experience to remember,</span>
-        not a corporate transaction.
-      </p>
-  </div>
 `;
 
 export default function Slide02WhoWeAre() {
   return (
     <section
-      data-label="02 Who We Are"
+      data-label="02 A Story In Every Box"
       className="paper-grain"
       style={{
         background: "var(--cream)",
