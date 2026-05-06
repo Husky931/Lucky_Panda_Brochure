@@ -9,99 +9,99 @@ const slideHtml = `
     opacity:0.42;
   "></div>
 
+
+
   <div style="
     position:absolute;
-    left:110px;
-    top:96px;
-    width:520px;
-    height:888px;
-    border-left:2px solid rgba(200,57,95,0.46);
-    border-right:1px solid rgba(184,147,90,0.34);
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    padding:28px 0 30px 56px;
+    left:248px;
+    top:206px;
+    width:660px;
   ">
-    <div>
-      <div class="eyebrow" style="margin-bottom:38px;">Company Representation</div>
-      <h2 class="serif-display" style="font-size:116px; line-height:0.94; margin:0; color:var(--ink);">
-        Who
-      </h2>
-      <h2 class="script-display" style="font-size:188px; line-height:0.75; margin:-8px 0 0 44px;">
-        we are
-      </h2>
-    </div>
-
-    <div style="width:360px;">
-      <div class="fleur" style="justify-content:flex-start; margin-bottom:26px;">
-        <span><svg width="22" height="22" style="color:var(--magenta);"><use href="#fleur"/></svg></span>
-      </div>
-      <div style="font-family:'Inter'; font-size:18px; font-weight:700; letter-spacing:0.28em; text-transform:uppercase; color:var(--ink);">
-        Shanghai studio
-      </div>
-    </div>
+    <h2 style="
+      margin:0;
+      font-family:'Playfair Display';
+      font-size:78px;
+      line-height:1.24;
+      font-weight:400;
+      letter-spacing:0;
+      color:var(--ink);
+    ">
+      <span style="color:var(--magenta);">Lucky Panda</span><br/>
+      is a creative<br/>
+      gifting studio<br/>
+      helping companies<br/>
+      make moments<br/>
+      feel personal
+    </h2>
   </div>
 
   <div style="
     position:absolute;
-    left:720px;
-    right:126px;
-    top:136px;
-    bottom:118px;
+    left:1044px;
+    right:254px;
+    top:228px;
+    bottom:176px;
     display:flex;
     flex-direction:column;
     justify-content:center;
   ">
     <p style="
-      margin:0 0 58px;
-      max-width:920px;
-      font-family:'Playfair Display';
-      font-size:58px;
-      line-height:1.16;
-      color:var(--ink);
-      font-style:italic;
+      margin:0 0 42px;
+      font-family:'Cormorant Garamond';
+      font-size:35px;
+      line-height:1.43;
+      color:var(--ink-soft);
     ">
-      <span style="color:var(--magenta);">Lucky Panda</span> is a creative gifting studio in Shanghai.
+      Lucky Panda is a Shanghai-based creative gifting studio built for companies
+      that want team moments, client events, and celebrations to feel thoughtful,
+      warm, and easy to remember.
     </p>
 
     <p style="
-      margin:0 0 62px;
-      max-width:910px;
       font-family:'Cormorant Garamond';
-      font-size:42px;
-      line-height:1.32;
+      font-size:35px;
+      line-height:1.43;
       color:var(--ink-soft);
+      margin:0 0 42px;
     ">
-      We design experiential, story-driven events that companies use to connect their teams:
-      gifts that feel like an experience to remember, not a corporate transaction.
+      We design experiential, story-driven boxes from first impression to final note,
+      blending curated treats, printed details, and event-ready presentation into one
+      polished gifting experience.
     </p>
 
-    <div style="
-      display:grid;
-      grid-template-columns:repeat(3, 1fr);
-      gap:34px;
-      max-width:950px;
+    <p style="
+      margin:0 0 48px;
+      font-family:'Cormorant Garamond';
+      font-size:35px;
+      line-height:1.43;
+      color:var(--ink-soft);
     ">
-      <div style="border-top:2px solid var(--magenta); padding-top:24px;">
-        <div style="font-family:'Inter'; font-size:16px; font-weight:700; letter-spacing:0.24em; text-transform:uppercase; color:var(--magenta); margin-bottom:16px;">01</div>
-        <p style="margin:0; font-family:'Cormorant Garamond'; font-size:31px; line-height:1.22; color:var(--ink);">
-          Curated gifts with a clear story, from first impression to final note.
-        </p>
-      </div>
-      <div style="border-top:2px solid var(--gold); padding-top:24px;">
-        <div style="font-family:'Inter'; font-size:16px; font-weight:700; letter-spacing:0.24em; text-transform:uppercase; color:var(--gold); margin-bottom:16px;">02</div>
-        <p style="margin:0; font-family:'Cormorant Garamond'; font-size:31px; line-height:1.22; color:var(--ink);">
-          Corporate moments made warmer, more personal, and easier to remember.
-        </p>
-      </div>
-      <div style="border-top:2px solid var(--magenta); padding-top:24px;">
-        <div style="font-family:'Inter'; font-size:16px; font-weight:700; letter-spacing:0.24em; text-transform:uppercase; color:var(--magenta); margin-bottom:16px;">03</div>
-        <p style="margin:0; font-family:'Cormorant Garamond'; font-size:31px; line-height:1.22; color:var(--ink);">
-          Designed in Shanghai for teams, clients, events, and celebrations.
-        </p>
-      </div>
-    </div>
+      Our studio handles the creative direction, sourcing, assembly details, and
+      delivery flow so every gift feels considered rather than transactional.
+    </p>
+
+    <p style="
+      margin:0;
+      font-family:'Cormorant Garamond';
+      font-size:35px;
+      line-height:1.43;
+      color:var(--ink-soft);
+    ">
+      <span style="font-family:'Inter'; font-size:24px; font-weight:700; letter-spacing:0.02em; color:var(--magenta);">Shanghai studio</span>
+      for teams, clients, events, and celebrations.
+    </p>
   </div>
+
+
+
+  <div style="
+    position:absolute;
+    right:134px;
+    top:176px;
+    bottom:132px;
+    width:1px;
+    background:linear-gradient(180deg, transparent, rgba(184,147,90,0.52), rgba(200,57,95,0.38), transparent);
+  "></div>
 `;
 
 export default function Slide03WhoWeAre() {
