@@ -22,27 +22,49 @@ export default function Slide04WhatWeBelieve() {
           style={{
             margin: "0",
             color: "var(--ink)",
-            fontSize: "96px",
-            lineHeight: 1.16,
+            fontSize: "78px",
+            lineHeight: 1.12,
             letterSpacing: 0,
           }}
         >
-          What if a gift could take your team somewhere?
+          What if a small gift could recharge the whole team?
         </h2>
 
-        {/* <p
+        <p
           style={{
-            margin: "42px 0 0",
+            margin: "48px auto 0",
+            maxWidth: "920px",
             color: "var(--ink-soft)",
-            fontFamily: "'Inter', sans-serif",
-            fontSize: "28px",
-            fontWeight: 300,
-            lineHeight: 1.45,
-            letterSpacing: "0.02em",
+            fontFamily: "'Cormorant Garamond', serif",
+            fontSize: "36px",
+            fontWeight: 400,
+            lineHeight: 1.42,
+            letterSpacing: 0,
           }}
         >
-          We believe every gift should tell a story
-        </p> */}
+          Your team has had a great month, and you want to surprise them with
+          something unique. Or maybe there is one final push ahead, and they
+          need a small spark. A personalised gift can leave a positive mark:
+          a little recharge, a desk-side treat, and something to chat about
+          during lunch.
+        </p>
+
+        <p
+          style={{
+            margin: "34px auto 0",
+            maxWidth: "820px",
+            color: "var(--magenta)",
+            fontFamily: "'Inter', sans-serif",
+            fontSize: "24px",
+            fontWeight: 600,
+            lineHeight: 1.5,
+            letterSpacing: "0.18em",
+            textTransform: "uppercase",
+          }}
+        >
+          So we turned that moment into a series: one country, one story, one
+          shared pause at a time.
+        </p>
       </div>
     </section>
   );

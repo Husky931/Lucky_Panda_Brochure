@@ -64,7 +64,7 @@ const slideHtml = `
       color:var(--ink-soft);
       margin:0 0 42px;
     ">
-      We design experiential, story-driven boxes from first impression to final note,
+      We design experiential, story-driven events from first impression to final note,
       blending curated treats, printed details, and event-ready presentation into one
       polished gifting experience.
     </p>

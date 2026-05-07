@@ -48,33 +48,40 @@ const slideHtml = `
 
   <div style="
     position:absolute;
-    right:96px;
-    top:50%;
-    width:1100px;
-    z-index:0;
-    transform:translateY(-50%) rotate(-7deg);
+    left:790px;
+    right:64px;
+    top:0;
+    bottom:0;
+    display:grid;
+    place-items:center;
   ">
     <div style="
-      position:absolute;
-      inset:-24px;
-      transform:rotate(4deg);
-    "></div>
-
-    <div class="photo-frame" style="
       position:relative;
-      width:100%;
-      aspect-ratio:1672 / 941;
-      background:var(--paper);
-      border-width:7px;
-      box-shadow:0 28px 64px -28px rgba(43,31,26,0.34);
-      overflow:hidden;
+      width:1100px;
+      transform:rotate(-7deg);
     ">
-      <img src="/uploads/team_going_next.png" alt="" style="
-        display:block;
+      <div style="
+        position:absolute;
+        inset:-24px;
+        transform:rotate(4deg);
+      "></div>
+
+      <div class="photo-frame" style="
+        position:relative;
         width:100%;
-        height:100%;
-        object-fit:contain;
-      "/>
+        aspect-ratio:1672 / 941;
+        background:var(--paper);
+        border-width:7px;
+        box-shadow:0 28px 64px -28px rgba(43,31,26,0.34);
+        overflow:hidden;
+      ">
+        <img src="/uploads/team_going_next.png" alt="" style="
+          display:block;
+          width:100%;
+          height:100%;
+          object-fit:contain;
+        "/>
+      </div>
     </div>
   </div>
 `;
