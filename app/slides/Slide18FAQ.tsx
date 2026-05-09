@@ -62,7 +62,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide13FAQ() {
+export default function Slide18FAQ() {
   return (
     <section
       data-label="18 FAQ"

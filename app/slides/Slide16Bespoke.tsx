@@ -44,7 +44,7 @@ const slideHtml = `
   </p>
 `;
 
-export default function Slide11Bespoke() {
+export default function Slide16Bespoke() {
   return (
     <section
       data-label="16 Bespoke"

@@ -131,7 +131,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide06WhatIsTravelers() {
+export default function Slide06TravelersBenefits() {
   return (
     <section
       data-label="06 Travelers Benefits"

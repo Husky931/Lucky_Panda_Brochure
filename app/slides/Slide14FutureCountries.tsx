@@ -115,7 +115,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide09FutureCountries() {
+export default function Slide14FutureCountries() {
   return (
     <section
       data-label="14 Future Countries"

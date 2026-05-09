@@ -62,7 +62,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide14Contact() {
+export default function Slide19Contact() {
   return (
     <section
       data-label="19 Contact"

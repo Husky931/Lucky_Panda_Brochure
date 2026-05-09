@@ -25,7 +25,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide07ANoteInside() {
+export default function Slide12ANoteInside() {
   return (
     <section
       data-label="12 A Note Inside"

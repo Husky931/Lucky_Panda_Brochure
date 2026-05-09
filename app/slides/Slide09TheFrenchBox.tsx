@@ -32,7 +32,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide05TheFrenchBox() {
+export default function Slide09TheFrenchBox() {
   return (
     <section
       data-label="09 The French Box"

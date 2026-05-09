@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Slide07FrenchBoxRitual() {
+export default function Slide08FrenchBoxRitual() {
   return (
     <section
       data-label="08 French Box Ritual"

@@ -86,7 +86,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide06SeriesIntro() {
+export default function Slide05SeriesIntro() {
   return (
     <section
       data-label="05 Series Intro"

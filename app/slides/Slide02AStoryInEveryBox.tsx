@@ -44,7 +44,7 @@ const slideHtml = `
 
 `;
 
-export default function Slide02WhoWeAre() {
+export default function Slide02AStoryInEveryBox() {
   return (
     <section
       data-label="02 A Story In Every Box"

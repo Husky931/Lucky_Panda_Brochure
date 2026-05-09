@@ -36,7 +36,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide04FirstStopFrance() {
+export default function Slide07FirstStopFrance() {
   return (
     <section
       data-label="07 First Stop France"

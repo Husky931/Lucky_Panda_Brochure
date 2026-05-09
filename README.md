@@ -13,24 +13,27 @@ Open `http://localhost:3000`.
 
 ## Edit slides
 
-Each brochure page is its own component in `app/slides/`:
+Each brochure page is its own component in `app/slides/`. The filename prefix
+matches the browser slide number / `data-label`:
 
 - `Slide01Cover.tsx`
-- `Slide02WhoWeAre.tsx`
+- `Slide02AStoryInEveryBox.tsx`
 - `Slide03WhoWeAre.tsx`
 - `Slide04WhatWeBelieve.tsx`
-- `Slide03GlobalJourney.tsx`
-- `Slide06SeriesIntro.tsx`
-- `Slide04FirstStopFrance.tsx`
-- `Slide05TheFrenchBox.tsx`
-- `Slide06InsideTheBox.tsx`
-- `Slide07ANoteInside.tsx`
-- `Slide08MakeItYours.tsx`
-- `Slide09FutureCountries.tsx`
-- `Slide10Founders.tsx`
-- `Slide11Bespoke.tsx`
-- `Slide12Pricing.tsx`
-- `Slide13FAQ.tsx`
-- `Slide14Contact.tsx`
+- `Slide05SeriesIntro.tsx`
+- `Slide06TravelersBenefits.tsx`
+- `Slide07FirstStopFrance.tsx`
+- `Slide08FrenchBoxRitual.tsx`
+- `Slide09TheFrenchBox.tsx`
+- `Slide10InsideTheBox.tsx`
+- `Slide11GlobalJourney.tsx`
+- `Slide12ANoteInside.tsx`
+- `Slide13MakeItYours.tsx`
+- `Slide14FutureCountries.tsx`
+- `Slide15Founders.tsx`
+- `Slide16Bespoke.tsx`
+- `Slide17Pricing.tsx`
+- `Slide18FAQ.tsx`
+- `Slide19Contact.tsx`
 
 Shared visual styling lives in `app/globals.css`. Images are in `public/assets/` and `public/uploads/`. The deck navigation/scaling web component is copied from the original project into `public/deck-stage.js`.

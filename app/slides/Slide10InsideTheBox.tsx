@@ -62,7 +62,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide06InsideTheBox() {
+export default function Slide10InsideTheBox() {
   return (
     <section
       data-label="10 Inside The Box"

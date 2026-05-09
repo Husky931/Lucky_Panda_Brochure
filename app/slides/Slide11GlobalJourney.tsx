@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Slide03GlobalJourney() {
+export default function Slide11GlobalJourney() {
   return (
     <section
       data-label="11 Global Journey"

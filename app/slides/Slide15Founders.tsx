@@ -49,7 +49,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide10Founders() {
+export default function Slide15Founders() {
   return (
     <section
       data-label="15 Founders"

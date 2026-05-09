@@ -43,7 +43,7 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide08MakeItYours() {
+export default function Slide13MakeItYours() {
   return (
     <section
       data-label="13 Make It Yours"
