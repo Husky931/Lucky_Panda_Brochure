@@ -100,33 +100,7 @@ const slideHtml = `
         z-index:4;
       "></div>
 
-      <div class="stamp" style="
-        position:absolute;
-        left:12px;
-        top:124px;
-        width:136px;
-        height:136px;
-        font-size:12px;
-        z-index:5;
-        background:var(--paper);
-      ">
-        <div>One Team<span class="heart"><svg width="14" height="14"><use href="#heart"/></svg></span>One Trip</div>
-      </div>
 
-      <div style="
-        position:absolute;
-        right:82px;
-        bottom:0;
-        z-index:6;
-        background:var(--paper);
-        border:1px solid var(--hairline);
-        padding:18px 28px 19px;
-        transform:rotate(-2deg);
-        box-shadow:0 18px 34px -20px rgba(43,31,26,0.3);
-      ">
-        <div style="font-family:'Caveat'; font-size:34px; color:var(--magenta); line-height:1;">country of the month</div>
-        <div style="font-family:'Inter'; font-size:13px; letter-spacing:0.24em; text-transform:uppercase; color:var(--ink-soft); margin-top:6px;">personalized for every employee</div>
-      </div>
     </div>
   </div>
 `;
