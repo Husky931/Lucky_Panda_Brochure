@@ -1,7 +1,7 @@
 const slideHtml = `
   <!-- left photo full-bleed -->
   <div class="photo" style="
-    background-image: url('assets/box-open-vertical.png');
+    background-image: url('assets/box-open-vertical-french.png');
     background-size: cover;
     background-position: center;
   "></div>
