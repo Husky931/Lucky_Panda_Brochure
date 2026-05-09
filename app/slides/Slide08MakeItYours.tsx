@@ -46,7 +46,7 @@ const slideHtml = `
 export default function Slide08MakeItYours() {
   return (
     <section
-      data-label="12 Make It Yours"
+      data-label="13 Make It Yours"
       className="paper-grain"
       style={{
         background: "var(--cream)",

@@ -6,6 +6,7 @@ import Slide03GlobalJourney from "./Slide03GlobalJourney";
 import Slide06SeriesIntro from "./Slide06SeriesIntro";
 import Slide06WhatIsTravelers from "./Slide06WhatIsTravelers";
 import Slide04FirstStopFrance from "./Slide04FirstStopFrance";
+import Slide07FrenchBoxRitual from "./Slide07FrenchBoxRitual";
 import Slide05TheFrenchBox from "./Slide05TheFrenchBox";
 import Slide06InsideTheBox from "./Slide06InsideTheBox";
 import Slide07ANoteInside from "./Slide07ANoteInside";
@@ -25,6 +26,7 @@ export const slides = [
   Slide06SeriesIntro,
   Slide06WhatIsTravelers,
   Slide04FirstStopFrance,
+  Slide07FrenchBoxRitual,
   Slide05TheFrenchBox,
   Slide06InsideTheBox,
   Slide03GlobalJourney,

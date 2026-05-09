@@ -1,18 +1,11 @@
 const slideHtml = `
-  <div style="padding: 126px 88px 112px 130px; display:flex; flex-direction:column; justify-content:center;">
+  <div style="padding: 112px 88px 112px 130px; display:flex; flex-direction:column; justify-content:center;">
     <div class="eyebrow" style="margin-bottom: 26px;">First Stop</div>
 
-    <div style="margin-bottom: 24px;">
+    <div style="margin-bottom: 0;">
       <span class="serif-italic" style="font-size:62px; color: var(--ink); line-height:1.1;">Bonjour,</span><br/>
       <span class="script-display" style="font-size:166px; line-height:0.82; display:inline-block; margin-top:-12px; transform:translateX(8px);">France</span>
     </div>
-
-
-    <p class="body-lg" style="max-width: 640px; margin: 0 0 34px; font-style: italic;">
-      A morning in Lyon. The smell of fresh butter, the clink of a coffee cup,
-      the slow click of shoes on cobblestone.
-    </p>
-
   </div>
 
   <div style="padding: 112px 118px 118px 28px; display:flex; align-items:center;">
