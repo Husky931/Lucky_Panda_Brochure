@@ -16,46 +16,54 @@ const slideHtml = `
     "></div>
   </div>
 
-  <!-- right: labeled ingredient cards -->
-  <div style="display:flex; flex-direction:column; justify-content:center; gap: 22px;">
-    <div class="frame" style="padding: 26px 32px; display:grid; grid-template-columns: 90px 1fr; gap: 22px; align-items:center;">
-      <div style="width:90px; height:90px; background: var(--rose-tint); display:grid; place-items:center; font-family:'Playfair Display'; font-size: 32px; color: var(--magenta);">01</div>
-      <div>
-        <div style="font-family:'Playfair Display'; font-weight:600; font-size: 24px; color: var(--ink);">Les Palets de la Mère Poulard</div>
-        <div class="body-tight" style="font-size: 18px; margin-top: 6px;">Buttery shortbread biscuits from Mont-Saint-Michel, baking since 1888.</div>
-      </div>
+  <!-- right: three editorial notes -->
+  <div style="
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap: 34px;
+    padding: 18px 12px 0 20px;
+  ">
+    <div style="width: min(660px, 100%); margin-left:auto;">
+      <ul style="
+        list-style:disc;
+        padding:0 0 0 32px;
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        gap: 12px;
+        font-family:'Playfair Display', serif;
+        font-size: 30px;
+        line-height:1.14;
+        color:var(--ink);
+      ">
+        <li>Premium chocolates &amp; truffles</li>
+        <li>Gourmet biscuits &amp; mini cakes</li>
+        <li>Artisan jams, honey &amp; confections</li>
+        <li>Handpicked, imported from France</li>
+      </ul>
+      <div style="width:100%; height:2px; background:var(--ink); opacity:0.9; margin-top: 38px;"></div>
     </div>
 
-    <div class="frame" style="padding: 26px 32px; display:grid; grid-template-columns: 90px 1fr; gap: 22px; align-items:center;">
-      <div style="width:90px; height:90px; background: var(--rose-tint); display:grid; place-items:center; font-family:'Playfair Display'; font-size: 32px; color: var(--magenta);">02</div>
-      <div>
-        <div style="font-family:'Playfair Display'; font-weight:600; font-size: 24px; color: var(--ink);">French Truffles, Hazelnut</div>
-        <div class="body-tight" style="font-size: 18px; margin-top: 6px;">Truffettes de France — cocoa-dusted, slow-melting, the small luxury kind.</div>
-      </div>
+    <div style="width: min(660px, 100%); margin-left:auto;">
+      <h3 class="serif-display" style="font-size: 40px; line-height:1.04; margin:0 0 14px; color:var(--ink);">
+        A message for each employee.
+      </h3>
+      <p class="body-tight" style="font-size: 22px; line-height:1.48; margin:0; max-width:620px;">
+        Every box can include a printed card addressed by name, with the recipient's team,
+        milestone, or thank-you message handled individually for HR and manager-led campaigns.
+      </p>
+      <div style="width:100%; height:2px; background:var(--ink); opacity:0.9; margin-top: 38px;"></div>
     </div>
 
-    <div class="frame" style="padding: 26px 32px; display:grid; grid-template-columns: 90px 1fr; gap: 22px; align-items:center;">
-      <div style="width:90px; height:90px; background: var(--rose-tint); display:grid; place-items:center; font-family:'Playfair Display'; font-size: 32px; color: var(--magenta);">03</div>
-      <div>
-        <div style="font-family:'Playfair Display'; font-weight:600; font-size: 24px; color: var(--ink);">St Dalfour Confitures</div>
-        <div class="body-tight" style="font-size: 18px; margin-top: 6px;">A trio of fruit preserves from the Lot-et-Garonne, sweetened only with grape juice.</div>
-      </div>
-    </div>
-
-    <div class="frame" style="padding: 26px 32px; display:grid; grid-template-columns: 90px 1fr; gap: 22px; align-items:center;">
-      <div style="width:90px; height:90px; background: var(--rose-tint); display:grid; place-items:center; font-family:'Playfair Display'; font-size: 32px; color: var(--magenta);">04</div>
-      <div>
-        <div style="font-family:'Playfair Display'; font-weight:600; font-size: 24px; color: var(--ink);">Jacquet Mini Cakes</div>
-        <div class="body-tight" style="font-size: 18px; margin-top: 6px;">Pocketable madeleines studded with chocolate chips — a Parisian afternoon, by post.</div>
-      </div>
-    </div>
-
-    <div class="frame" style="padding: 26px 32px; display:grid; grid-template-columns: 90px 1fr; gap: 22px; align-items:center;">
-      <div style="width:90px; height:90px; background: var(--rose-tint); display:grid; place-items:center; font-family:'Playfair Display'; font-size: 32px; color: var(--magenta);">05</div>
-      <div>
-        <div style="font-family:'Playfair Display'; font-weight:600; font-size: 24px; color: var(--ink);">+ A handwritten note</div>
-        <div class="body-tight" style="font-size: 18px; margin-top: 6px;">A folded card, on cream stock, with whatever message you'd like the recipient to read first.</div>
-      </div>
+    <div style="width: min(660px, 100%); margin-left:auto;">
+      <h3 class="serif-display" style="font-size: 40px; line-height:1.04; margin:0 0 14px; color:var(--ink);">
+        A short video from leadership.
+      </h3>
+      <p class="body-tight" style="font-size: 22px; line-height:1.48; margin:0; max-width:620px;">
+        A QR card can open a recorded greeting from the CEO or manager, turning the box
+        into a direct recognition moment for remote teams, anniversaries, onboarding, or year-end thanks.
+      </p>
     </div>
   </div>
 `;
