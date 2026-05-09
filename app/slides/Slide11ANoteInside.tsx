@@ -9,7 +9,7 @@ export default function Slide11ANoteInside() {
       }}
     >
       <img
-        src="/what_is_LP/how_we_make_it_yours.png"
+        src="/make_it_yours.png"
         alt="How we make it yours"
         style={{
           width: "100%",
