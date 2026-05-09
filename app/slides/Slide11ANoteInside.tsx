@@ -25,10 +25,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide12ANoteInside() {
+export default function Slide11ANoteInside() {
   return (
     <section
-      data-label="12 A Note Inside"
+      data-label="11 A Note Inside"
       style={{
         background: "var(--cream)",
         display: "grid",

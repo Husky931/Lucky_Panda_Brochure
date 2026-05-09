@@ -62,10 +62,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide19Contact() {
+export default function Slide18Contact() {
   return (
     <section
-      data-label="19 Contact"
+      data-label="18 Contact"
       className="paper-grain"
       style={{
         background: "linear-gradient(180deg, var(--cream) 0%, var(--rose-tint) 100%)",

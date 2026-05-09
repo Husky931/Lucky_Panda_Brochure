@@ -49,10 +49,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide15Founders() {
+export default function Slide14Founders() {
   return (
     <section
-      data-label="15 Founders"
+      data-label="14 Founders"
       className="paper-grain"
       style={{
         background: "var(--cream)",

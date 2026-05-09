@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function Slide11GlobalJourney() {
+export default function Slide19GlobalJourney() {
   return (
     <section
-      data-label="11 Global Journey"
+      data-label="19 Global Journey"
       style={{
         background: "var(--cream)",
       }}

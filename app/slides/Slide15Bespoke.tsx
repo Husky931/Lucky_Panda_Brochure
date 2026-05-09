@@ -36,18 +36,12 @@ const slideHtml = `
       <p class="body-tight" style="margin: 0;">CNY, year-end, milestone moments — sent across cities, addressed by name.</p>
     </div>
   </div>
-
-  <!-- closing line -->
-  <p class="serif-italic" style="font-size: 30px; text-align:center; max-width: 1100px; margin: 0 auto; color: var(--ink); line-height:1.45;">
-    "We are selective about what we take on, because we believe a gift that tries
-    to be everything ends up being nothing."
-  </p>
 `;
 
-export default function Slide16Bespoke() {
+export default function Slide15Bespoke() {
   return (
     <section
-      data-label="16 Bespoke"
+      data-label="15 Bespoke"
       className="paper-grain"
       style={{
         background: "linear-gradient(180deg, var(--rose-tint) 0%, var(--cream) 100%)",
