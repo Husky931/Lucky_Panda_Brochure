@@ -6,9 +6,7 @@ const slideHtml = `
       Inside <span class="serif-italic">the box</span>
     </h2>
     <p class="body" style="max-width: 540px; margin: 0 0 36px;">
-      Every item is chosen for its story. A bakery that's been baking since 1923.
-      A village where lavender turns honey amber. A confiserie tucked behind a
-      Brittany lighthouse. The label tells you where you've just been.
+      A curated selection of authentic French treats — sweet, savory, and quietly indulgent. Wrapped in red, sealed with a paw, and ready to land on a desk.
     </p>
 
     <div class="photo photo-frame" style="
