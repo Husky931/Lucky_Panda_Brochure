@@ -7,23 +7,11 @@ const slideHtml = `
     justify-content:center;
     background: var(--cream);
   ">
-    <div class="eyebrow" style="margin-bottom: 22px;">Product notes</div>
-
-    <h2 class="serif-display" style="font-size: 76px; line-height: 1.0; margin: 0 0 18px; color: var(--ink); max-width: 780px;">
-      The French box,
-      <span class="serif-italic"> item by item.</span>
-    </h2>
-
-    <p class="body-tight" style="font-size: 22px; line-height: 1.45; max-width: 790px; margin: 0 0 34px;">
-      A generous mix of chocolate, biscuits, preserves, candies, and pastry moments,
-      chosen so every recipient finds something familiar, something playful, and something worth keeping.
-    </p>
-
     <div style="
       display:grid;
       grid-template-columns: 1fr 1fr;
       column-gap: 34px;
-      row-gap: 18px;
+      row-gap: 28px;
       max-width: 880px;
     ">
       <div style="border-top: 1px solid var(--hairline); padding-top: 14px;">
