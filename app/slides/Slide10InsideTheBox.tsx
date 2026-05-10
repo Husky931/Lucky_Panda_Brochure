@@ -71,7 +71,7 @@ const slideHtml = `
 export default function Slide10InsideTheBox() {
   return (
     <section
-      data-label="10 Inside The Box"
+      data-label="09 Inside The Box"
       className="paper-grain"
       style={{
         background: "var(--cream)",

@@ -23,17 +23,13 @@ const slideHtml = `
       hand — a different scene for every country. Small details that turn a gift
       into a keepsake.
     </p>
-
-    // <p class="body-lg" style="max-width: 560px; margin: 0; color: var(--ink);">
-    //   Specially curated and imported French products that make the box a gift to treasure.
-    // </p>
   </div>
 `;
 
 export default function Slide09TheFrenchBox() {
   return (
     <section
-      data-label="09 The French Box"
+      data-label="10 The French Box"
       style={{
         background: "var(--cream)",
         display: "grid",
