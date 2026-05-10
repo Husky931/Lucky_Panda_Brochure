@@ -26,6 +26,11 @@ const slideHtml = `
     ">
       <li style="display:flex; align-items:flex-start;">
         <span class="dot-mark" style="width:11px; height:11px; margin-top:13px;"></span>
+        Unique gathered and imported treats, snacks and items from the country of the month
+      </li>
+
+      <li style="display:flex; align-items:flex-start;">
+        <span class="dot-mark" style="width:11px; height:11px; margin-top:13px;"></span>
         Personalized messages for every recipient
       </li>
 
@@ -36,18 +41,15 @@ const slideHtml = `
 
       <li style="display:flex; align-items:flex-start;">
         <span class="dot-mark" style="width:11px; height:11px; margin-top:13px;"></span>
-        Co-branded sleeves, ribbons, lid messages, belly bands, or boxes
-      </li>
-
-      <li style="display:flex; align-items:flex-start;">
-        <span class="dot-mark" style="width:11px; height:11px; margin-top:13px;"></span>
-        Company keepsakes such as keychains, notebooks, stickers, pins, or desk cards
-      </li>
-
-      <li style="display:flex; align-items:flex-start;">
-        <span class="dot-mark" style="width:11px; height:11px; margin-top:13px;"></span>
         Destination story card with tasting notes and cultural cues
       </li>
+
+      <li style="display:flex; align-items:flex-start;">
+        <span class="dot-mark" style="width:11px; height:11px; margin-top:13px;"></span>
+        Additional company branded keepsakes such as keychains, notebooks, stickers, pins, or desk cards
+      </li>
+
+   
     </ul>
   </div>
 
