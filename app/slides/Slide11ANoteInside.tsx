@@ -1,7 +1,6 @@
 const slideHtml = `
   <!-- left: editorial -->
   <div class="paper-grain" style="padding: 150px 110px 150px 130px; display:flex; flex-direction:column; justify-content:center; background: var(--rose-tint);">
-    <div class="eyebrow" style="margin-bottom: 26px;">Inside the lid</div>
 
     <h2 class="serif-display" style="font-size: 76px; line-height: 1.02; margin: 0 0 18px; color: var(--ink);">
       A note <span class="serif-italic">meant</span> for them
@@ -25,7 +24,7 @@ const slideHtml = `
 
   <!-- right: open-box horizontal photo -->
   <div class="photo" style="
-    background-image: url('assets/box-open-horizontal.png');
+    background-image: url('personal_note.png');
     background-size: cover;
     background-position: center;
   "></div>
