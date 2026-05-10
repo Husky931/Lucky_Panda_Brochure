@@ -6,17 +6,18 @@ import Slide05SeriesIntro from "./Slide05SeriesIntro";
 import Slide06TravelersBenefits from "./Slide06TravelersBenefits";
 import Slide07FirstStopFrance from "./Slide07FirstStopFrance";
 import Slide08FrenchBoxRitual from "./Slide08FrenchBoxRitual";
-import Slide09TheFrenchBox from "./Slide09TheFrenchBox";
-import Slide10InsideTheBox from "./Slide10InsideTheBox";
+import Slide09InsideTheBox from "./Slide09InsideTheBox";
+import Slide10Products from "./Slide10Products";
 import Slide11ANoteInside from "./Slide11ANoteInside";
-import Slide12MakeItYours from "./Slide12MakeItYours";
-import Slide13FutureCountries from "./Slide13FutureCountries";
-import Slide14Founders from "./Slide14Founders";
-import Slide15Bespoke from "./Slide15Bespoke";
-import Slide16Pricing from "./Slide16Pricing";
-import Slide17FAQ from "./Slide17FAQ";
-import Slide18Contact from "./Slide18Contact";
-import Slide19GlobalJourney from "./Slide19GlobalJourney";
+import Slide12TheFrenchBox from "./Slide12TheFrenchBox";
+import Slide13MakeItYours from "./Slide13MakeItYours";
+import Slide14FutureCountries from "./Slide14FutureCountries";
+import Slide15Founders from "./Slide15Founders";
+import Slide16Bespoke from "./Slide16Bespoke";
+import Slide17Pricing from "./Slide17Pricing";
+import Slide18FAQ from "./Slide18FAQ";
+import Slide19Contact from "./Slide19Contact";
+import Slide20GlobalJourney from "./Slide20GlobalJourney";
 
 export const slides = [
   Slide01Cover,
@@ -27,15 +28,16 @@ export const slides = [
   Slide06TravelersBenefits,
   Slide07FirstStopFrance,
   Slide08FrenchBoxRitual,
-  Slide10InsideTheBox,
-  Slide09TheFrenchBox,
+  Slide09InsideTheBox,
+  Slide10Products,
   Slide11ANoteInside,
-  Slide12MakeItYours,
-  Slide13FutureCountries,
-  Slide14Founders,
-  Slide15Bespoke,
-  Slide16Pricing,
-  Slide17FAQ,
-  Slide18Contact,
-  Slide19GlobalJourney,
+  Slide12TheFrenchBox,
+  Slide13MakeItYours,
+  Slide14FutureCountries,
+  Slide15Founders,
+  Slide16Bespoke,
+  Slide17Pricing,
+  Slide18FAQ,
+  Slide19Contact,
+  Slide20GlobalJourney,
 ];

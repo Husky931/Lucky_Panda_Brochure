@@ -38,10 +38,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide15Bespoke() {
+export default function Slide16Bespoke() {
   return (
     <section
-      data-label="15 Bespoke"
+      data-label="16 Bespoke"
       className="paper-grain"
       style={{
         background: "linear-gradient(180deg, var(--rose-tint) 0%, var(--cream) 100%)",
