@@ -196,7 +196,7 @@ section[data-label] {
 .tier {
   background: var(--paper);
   border: 1px solid var(--hairline);
-  padding: 56px 48px 52px;
+  padding: 46px 44px 42px;
   display: flex; flex-direction: column;
   position: relative;
 }
