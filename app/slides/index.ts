@@ -13,7 +13,7 @@ import Slide12QRCode from "./Slide12QRCode";
 import Slide13CustomBranding from "./Slide13CustomBranding";
 import Slide14AnythingCustom from "./Slide14AnythingCustom";
 import Slide15TheFrenchBox from "./Slide15TheFrenchBox";
-import Slide16FutureCountries from "./Slide16FutureCountries";
+import Slide16TheJourneyContinues from "./Slide16TheJourneyContinues";
 import Slide17Founders from "./Slide17Founders";
 import Slide18Bespoke from "./Slide18Bespoke";
 import Slide19Pricing from "./Slide19Pricing";
@@ -37,7 +37,7 @@ export const slides = [
   Slide13CustomBranding,
   Slide14AnythingCustom,
   Slide15TheFrenchBox,
-  Slide16FutureCountries,
+  Slide16TheJourneyContinues,
   Slide17Founders,
   Slide18Bespoke,
   Slide19Pricing,
