@@ -8,7 +8,7 @@ const slideHtml = `
       </h2>
       <div style="justify-self:center; max-width: 600px; padding: 24px 28px; text-align:center; border-top:1px solid var(--hairline); border-bottom:1px solid var(--hairline);">
         <p class="serif-italic" style="font-size: 34px; line-height:1.25; color: var(--ink); margin:0;">
-          &ldquo;For additional services, including foreign-led classes, contact us directly
+          &ldquo;For additional services, including foreign-led classes, contact us directly&ldquo;
         </p>
       </div>
     </div>
