@@ -38,7 +38,7 @@ const slideHtml = `
     </div>
   </div>
 
-  <div style="height:100%; padding-top: 0;">
+  <div style="height:100%; display:flex; flex-direction:column; justify-content:center;">
     <div style="font-family:'Inter'; font-size: 15px; font-weight:700; letter-spacing:0.3em; text-transform:uppercase; color: var(--magenta); margin-bottom: 18px;">
       Foreigner-led classes
     </div>
