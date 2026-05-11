@@ -1,39 +1,88 @@
 const slideHtml = `
-  <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items:end;">
+  <div style="max-width: 920px;">
     <div>
-      <div class="eyebrow" style="margin-bottom: 24px;">Beyond the collection</div>
-      <h2 class="serif-display" style="font-size: 96px; line-height: 1.0; margin: 0; color: var(--ink);">
-        Bespoke
+      <div class="eyebrow" style="margin-bottom: 14px;">Beyond the box</div>
+      <h2 class="serif-display" style="font-size: 76px; line-height: 1.0; margin: 0; color: var(--ink);">
+        What else  we offer.
       </h2>
-      <h2 class="script-display" style="font-size: 180px; line-height: 0.9; margin: -10px 0 0;">
-        gifting.
-      </h2>
+
+      <p class="body-lg" style="max-width: 820px; margin: 24px 0 0;">
+        The Lucky Panda box can become a branded gifting program, or the beginning
+        of a shared experience: something to receive, open, make, taste, and remember.
+      </p>
     </div>
-    <p class="body-lg" style="max-width: 580px; margin: 0 0 14px;">
-      Beyond our country collection, we design custom gifting projects with the
-      same storytelling approach — we start with <em>who the recipient is</em>,
-      not what's in the box.
-    </p>
   </div>
 
-  <!-- 3 use cases -->
-  <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 36px;">
-    <div class="frame" style="padding: 60px 44px; display:flex; flex-direction:column; gap: 22px; min-height: 360px;">
-      <div style="font-family:'Playfair Display'; font-style:italic; font-size: 26px; color: var(--magenta);">— New hires</div>
-      <h3 class="serif-display" style="font-size: 38px; line-height: 1.05; margin: 0; color: var(--ink);">Welcome kits worth opening twice.</h3>
-      <p class="body-tight" style="margin: 0;">A first-day box that tells your company's story before the onboarding deck does.</p>
+  <div style="display:grid; grid-template-columns: 0.9fr 1.1fr; gap: 78px; align-items:center; padding-bottom: 40px;">
+    <div style="padding-top: 8px;">
+      <div style="display:grid; grid-template-columns: 1fr;">
+        <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
+          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Milestone &amp; anniversary gifts</div>
+        </div>
+        <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
+          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Employee onboarding kits</div>
+        </div>
+        <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
+          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Client appreciation gifts</div>
+        </div>
+        <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
+          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Event gifting</div>
+        </div>
+        <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); border-bottom:1px solid var(--hairline); padding: 17px 0;">
+          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Custom gifting</div>
+        </div>
+      </div>
     </div>
 
-    <div class="frame" style="padding: 60px 44px; display:flex; flex-direction:column; gap: 22px; min-height: 360px;">
-      <div style="font-family:'Playfair Display'; font-style:italic; font-size: 26px; color: var(--magenta);">— Clients</div>
-      <h3 class="serif-display" style="font-size: 38px; line-height: 1.05; margin: 0; color: var(--ink);">Thank-yous they actually keep.</h3>
-      <p class="body-tight" style="margin: 0;">For closed deals, anniversaries, and the quiet "thank you for trusting us" moments.</p>
-    </div>
+    <div style="padding-top: 8px;">
+      <div style="font-family:'Inter'; font-size: 15px; font-weight:700; letter-spacing:0.3em; text-transform:uppercase; color: var(--magenta); margin-bottom: 18px;">
+        Foreigner-led classes
+      </div>
+      <h3 class="serif-display" style="font-size: 50px; line-height: 1.02; margin: 0 0 16px; color: var(--ink);">
+        Experiences to make, taste, and talk about.
+      </h3>
+      <p class="body-tight" style="font-size: 21px; line-height:1.42; margin: 0 0 30px; max-width: 720px;">
+        Hosted in a warm, social format for teams, clients, events, or private groups.
+      </p>
 
-    <div class="frame" style="padding: 60px 44px; display:flex; flex-direction:column; gap: 22px; min-height: 360px;">
-      <div style="font-family:'Playfair Display'; font-style:italic; font-size: 26px; color: var(--magenta);">— Teams</div>
-      <h3 class="serif-display" style="font-size: 38px; line-height: 1.05; margin: 0; color: var(--ink);">Annual appreciation, done well.</h3>
-      <p class="body-tight" style="margin: 0;">CNY, year-end, milestone moments — sent across cities, addressed by name.</p>
+      <div style="display:grid; grid-template-columns: 1fr; gap: 28px;">
+        <div style="display:grid; grid-template-columns: 330px 1fr; gap: 30px; align-items:center; border-top:1px solid var(--hairline); padding-top: 22px;">
+          <img
+            src="/cocktails.png"
+            alt="Cocktail making class"
+            style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center; box-shadow: 0 20px 46px -30px rgba(43,31,26,0.45);"
+          />
+          <div>
+            <h4 class="serif-display" style="font-size: 33px; line-height:1.05; margin:0 0 9px; color:var(--ink);">
+              Popular cocktail-making classes
+            </h4>
+            <p style="font-family:'Inter'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
+              Shaken classics, simple techniques, and a lively format that works for after-work groups.
+            </p>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 330px 1fr; gap: 30px; align-items:center; border-top:1px solid var(--hairline); border-bottom:1px solid var(--hairline); padding: 22px 0;">
+          <img
+            src="/cooking.png"
+            alt="Cooking class"
+            style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center; box-shadow: 0 20px 46px -30px rgba(43,31,26,0.45);"
+          />
+          <div>
+            <h4 class="serif-display" style="font-size: 33px; line-height:1.05; margin:0 0 9px; color:var(--ink);">
+              Cooking classes: make a popular foreign dish
+            </h4>
+            <p style="font-family:'Inter'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
+              A hands-on session where guests learn, cook together, and sit down with something they made.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 `;
@@ -41,14 +90,14 @@ const slideHtml = `
 export default function Slide17Bespoke() {
   return (
     <section
-      data-label="17 Bespoke"
+      data-label="17 What Else We Offer"
       className="paper-grain"
       style={{
-        background: "linear-gradient(180deg, var(--rose-tint) 0%, var(--cream) 100%)",
-        padding: "130px 160px",
+        background: "var(--cream)",
+        padding: "88px 130px 96px",
         display: "grid",
         gridTemplateRows: "auto 1fr",
-        gap: "70px",
+        gap: "42px",
       }}
       dangerouslySetInnerHTML={{ __html: slideHtml }}
     />
