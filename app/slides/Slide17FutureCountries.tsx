@@ -115,10 +115,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide16FutureCountries() {
+export default function Slide17FutureCountries() {
   return (
     <section
-      data-label="16 Future Countries"
+      data-label="17 Future Countries"
       style={{
         background: "var(--cream-2)",
         padding: "110px 130px",

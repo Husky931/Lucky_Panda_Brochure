@@ -43,10 +43,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide15MakeItYours() {
+export default function Slide16MakeItYours() {
   return (
     <section
-      data-label="15 Make It Yours"
+      data-label="16 Make It Yours"
       className="paper-grain"
       style={{
         background: "var(--cream)",
