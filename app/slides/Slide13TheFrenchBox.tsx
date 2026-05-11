@@ -26,10 +26,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide12TheFrenchBox() {
+export default function Slide13TheFrenchBox() {
   return (
     <section
-      data-label="12 The French Box"
+      data-label="13 The French Box"
       style={{
         background: "var(--cream)",
         display: "grid",
