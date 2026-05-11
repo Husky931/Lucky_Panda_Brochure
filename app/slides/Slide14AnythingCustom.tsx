@@ -11,7 +11,7 @@ const slideHtml = `
     </h2>
 
     <p class="body-lg" style="max-width: 900px; margin: 0 0 22px; color: var(--ink-soft);">
-      From the outer box to the products inside, each gift can be tailored to your brand, your occasion, and the people receiving it.
+      From the outer box to the products inside, each gift can be tailored to your brand, your occasion, and the people receiving it, with co-design available alongside HR and PR teams.
     </p>
 
     <p class="serif-italic" style="font-size: 36px; line-height: 1.32; max-width: 760px; margin: 0 0 52px; color: var(--ink);">
