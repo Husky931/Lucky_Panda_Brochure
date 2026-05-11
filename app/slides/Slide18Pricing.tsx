@@ -77,10 +77,10 @@ const slideHtml = `
   <div class="fleur"><span><svg width="22" height="22"><use href="#fleur"/></svg></span></div>
 `;
 
-export default function Slide19Pricing() {
+export default function Slide18Pricing() {
   return (
     <section
-      data-label="19 Pricing"
+      data-label="18 Pricing"
       className="paper-grain"
       style={{
         background: "var(--cream)",
