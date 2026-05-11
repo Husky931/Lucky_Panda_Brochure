@@ -10,15 +10,16 @@ import Slide09InsideTheBox from "./Slide09InsideTheBox";
 import Slide10Products from "./Slide10Products";
 import Slide11ANoteInside from "./Slide11ANoteInside";
 import Slide12QRCode from "./Slide12QRCode";
-import Slide13TheFrenchBox from "./Slide13TheFrenchBox";
-import Slide14MakeItYours from "./Slide14MakeItYours";
-import Slide15FutureCountries from "./Slide15FutureCountries";
-import Slide16Founders from "./Slide16Founders";
-import Slide17Bespoke from "./Slide17Bespoke";
-import Slide18Pricing from "./Slide18Pricing";
-import Slide19FAQ from "./Slide19FAQ";
-import Slide20Contact from "./Slide20Contact";
-import Slide21GlobalJourney from "./Slide21GlobalJourney";
+import Slide13CustomBranding from "./Slide13CustomBranding";
+import Slide14TheFrenchBox from "./Slide14TheFrenchBox";
+import Slide15MakeItYours from "./Slide15MakeItYours";
+import Slide16FutureCountries from "./Slide16FutureCountries";
+import Slide17Founders from "./Slide17Founders";
+import Slide18Bespoke from "./Slide18Bespoke";
+import Slide19Pricing from "./Slide19Pricing";
+import Slide20FAQ from "./Slide20FAQ";
+import Slide21Contact from "./Slide21Contact";
+import Slide22GlobalJourney from "./Slide22GlobalJourney";
 
 export const slides = [
   Slide01Cover,
@@ -33,13 +34,14 @@ export const slides = [
   Slide10Products,
   Slide11ANoteInside,
   Slide12QRCode,
-  Slide13TheFrenchBox,
-  Slide14MakeItYours,
-  Slide15FutureCountries,
-  Slide16Founders,
-  Slide17Bespoke,
-  Slide18Pricing,
-  Slide19FAQ,
-  Slide20Contact,
-  Slide21GlobalJourney,
+  Slide13CustomBranding,
+  Slide14TheFrenchBox,
+  Slide15MakeItYours,
+  Slide16FutureCountries,
+  Slide17Founders,
+  Slide18Bespoke,
+  Slide19Pricing,
+  Slide20FAQ,
+  Slide21Contact,
+  Slide22GlobalJourney,
 ];
