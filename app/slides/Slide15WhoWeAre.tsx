@@ -104,10 +104,10 @@ const slideHtml = `
   "></div>
 `;
 
-export default function Slide03WhoWeAre() {
+export default function Slide15WhoWeAre() {
   return (
     <section
-      data-label="03 Who We Are"
+      data-label="15 Who We Are"
       className="paper-grain"
       style={{
         background: "var(--cream)",

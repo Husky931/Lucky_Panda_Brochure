@@ -71,10 +71,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide10Products() {
+export default function Slide09Products() {
   return (
     <section
-      data-label="10 The Products"
+      data-label="09 The Products"
       style={{
         background: "var(--cream)",
         display: "grid",

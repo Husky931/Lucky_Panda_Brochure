@@ -1,7 +1,7 @@
-export default function Slide04WhatWeBelieve() {
+export default function Slide03WhatWeBelieve() {
   return (
     <section
-      data-label="04 What We Believe"
+      data-label="03 What We Believe"
       className="paper-grain"
       style={{
         background: "var(--cream)",
@@ -42,7 +42,7 @@ export default function Slide04WhatWeBelieve() {
             letterSpacing: 0,
           }}
         >
-          Your team has had a great month, and you want to surprise them with
+          Your team had a great month, and you want to surprise them with
           something unique. Or maybe there is one final push ahead, and they
           need a small spark. A personalised gift can leave a positive mark:
           a little recharge, a desk-side treat, and something to chat about

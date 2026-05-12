@@ -68,10 +68,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide09InsideTheBox() {
+export default function Slide08InsideTheBox() {
   return (
     <section
-      data-label="09 Inside The Box"
+      data-label="08 Inside The Box"
       className="paper-grain"
       style={{
         background: "var(--cream)",

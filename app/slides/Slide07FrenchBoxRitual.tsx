@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function Slide08FrenchBoxRitual() {
+export default function Slide07FrenchBoxRitual() {
   return (
     <section
-      data-label="08 French Box Ritual"
+      data-label="07 French Box Ritual"
       style={{
         background: "var(--cream)",
       }}

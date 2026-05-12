@@ -76,10 +76,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide13CustomBranding() {
+export default function Slide12CustomBranding() {
   return (
     <section
-      data-label="13 Custom Branding"
+      data-label="12 Custom Branding"
       style={{
         background: "var(--cream)",
         display: "grid",

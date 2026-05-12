@@ -96,10 +96,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide15TheJourneyContinues() {
+export default function Slide14TheJourneyContinues() {
   return (
     <section
-      data-label="15 The Journey Continues"
+      data-label="14 The Journey Continues"
       style={{
         background: "var(--cream)",
         display: "grid",

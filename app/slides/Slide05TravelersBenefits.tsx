@@ -107,10 +107,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide06TravelersBenefits() {
+export default function Slide05TravelersBenefits() {
   return (
     <section
-      data-label="06 Travelers Benefits"
+      data-label="05 Travelers Benefits"
       className="paper-grain"
       style={{
         background: "var(--cream)",

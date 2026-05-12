@@ -86,10 +86,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide05SeriesIntro() {
+export default function Slide04SeriesIntro() {
   return (
     <section
-      data-label="05 Series Intro"
+      data-label="04 Series Intro"
       className="paper-grain"
       style={{
         background: "var(--cream)",
