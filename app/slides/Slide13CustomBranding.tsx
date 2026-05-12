@@ -48,10 +48,10 @@ const slideHtml = `
           Your brand,<br/>
           <span class="serif-italic">inside the moment.</span>
         </h2>
-        <div style="font-family:'Caveat'; font-size: 38px; color: var(--magenta); line-height: 1.08; margin: 0 0 18px; max-width: 520px;">
+        <div style="font-family:'Dancing Script'; font-size: 38px; color: var(--magenta); line-height: 1.08; margin: 0 0 18px; max-width: 520px;">
           A shipment that feels like it came from you.
         </div>
-        <p style="font-family:'Inter'; font-size: 21px; line-height:1.44; max-width: 620px; margin: 0; color: var(--ink-soft);">
+        <p style="font-family:'Source Sans 3'; font-size: 21px; line-height:1.44; max-width: 620px; margin: 0; color: var(--ink-soft);">
           Custom packaging, printed inserts, branded office pieces, and campaign-specific add-ons, designed around your team, your message, and your moment.
         </p>
       </div>
@@ -59,17 +59,17 @@ const slideHtml = `
       <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 28px; align-items:start;">
         <div style="border-top: 1px solid var(--hairline); padding-top: 16px;">
           <h3 class="serif-display" style="font-size: 28px; line-height:1.05; margin:0 0 7px; color:var(--ink);">Brand the box</h3>
-          <p style="font-family:'Inter'; font-size:17px; line-height:1.36; margin:0; color:var(--ink-soft);">Sleeves, ribbons, lid cards, stickers, and printed panels brought into the Lucky Panda visual system.</p>
+          <p style="font-family:'Source Sans 3'; font-size:17px; line-height:1.36; margin:0; color:var(--ink-soft);">Sleeves, ribbons, lid cards, stickers, and printed panels brought into the Lucky Panda visual system.</p>
         </div>
 
         <div style="border-top: 1px solid var(--hairline); padding-top: 16px;">
           <h3 class="serif-display" style="font-size: 28px; line-height:1.05; margin:0 0 7px; color:var(--ink);">Print the message</h3>
-          <p style="font-family:'Inter'; font-size:17px; line-height:1.36; margin:0; color:var(--ink-soft);">Welcome notes, thank-you cards, QR cards, desk signs, and campaign copy for the occasion.</p>
+          <p style="font-family:'Source Sans 3'; font-size:17px; line-height:1.36; margin:0; color:var(--ink-soft);">Welcome notes, thank-you cards, QR cards, desk signs, and campaign copy for the occasion.</p>
         </div>
 
         <div style="border-top: 1px solid var(--hairline); padding-top: 16px;">
           <h3 class="serif-display" style="font-size: 28px; line-height:1.05; margin:0 0 7px; color:var(--ink);">Extend the gift</h3>
-          <p style="font-family:'Inter'; font-size:17px; line-height:1.36; margin:0; color:var(--ink-soft);">Notebooks, pens, pouches, name cards, and small desk objects that keep the story in daily use.</p>
+          <p style="font-family:'Source Sans 3'; font-size:17px; line-height:1.36; margin:0; color:var(--ink-soft);">Notebooks, pens, pouches, name cards, and small desk objects that keep the story in daily use.</p>
         </div>
       </div>
     </div>

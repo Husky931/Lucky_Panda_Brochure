@@ -6,7 +6,7 @@ const slideHtml = `
 
     <!-- center: title -->
     <div style="position:absolute; top:50%; left:130px; right:80px; transform:translateY(-50%);">
-      <div class="eyebrow" style="margin-bottom: 28px;">A Storytelling Gifting Studio</div>
+      <div class="eyebrow" style="margin-bottom: 28px;">Creative Gifting Studio</div>
 
       <h1 class="serif-display" style="font-size: 132px; line-height: 0.95; margin: 0 0 8px; color: var(--ink);">
         Lucky
@@ -15,19 +15,12 @@ const slideHtml = `
         Panda
       </h1>
 
-      <div class="fleur" style="max-width: 540px; margin: 36px 0 32px;">
-        <span><svg width="22" height="22" style="color:var(--magenta);"><use href="#fleur"/></svg></span>
-      </div>
 
-      <p class="serif-italic" style="font-size: 36px; color: var(--ink-soft); margin: 0; max-width: 600px; line-height: 1.35;">
-        Every gift, a small journey.<br/>
-        Every box, a story to keep.
-      </p>
     </div>
 
     <!-- bottom: tagline strip -->
     <div style="position:absolute; left:130px; right:80px; bottom:100px; display:flex; align-items:center; gap:28px;">
-      <div style="font-family:'Inter'; font-size:18px; letter-spacing:0.3em; text-transform:uppercase; color:var(--ink); font-weight:600;">Company Introduction</div>
+      <div style="font-family:'Source Sans 3'; font-size:18px; letter-spacing:0.3em; text-transform:uppercase; color:var(--ink); font-weight:600;">Company Introduction</div>
     </div>
   </div>
 

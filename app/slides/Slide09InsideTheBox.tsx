@@ -32,7 +32,7 @@ const slideHtml = `
         display:flex;
         flex-direction:column;
         gap: 12px;
-        font-family:'Playfair Display', serif;
+        font-family:'Libre Baskerville', serif;
         font-size: 30px;
         line-height:1.14;
         color:var(--ink);

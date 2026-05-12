@@ -29,8 +29,8 @@ const slideHtml = `
         transform:rotate(-3deg);
         box-shadow:0 18px 34px -18px rgba(43,31,26,0.26);
       ">
-        <div style="font-family:'Caveat'; font-size:34px; line-height:1; color:var(--magenta);">French-inspired snack box</div>
-        <div style="font-family:'Inter'; font-size:14px; letter-spacing:0.22em; text-transform:uppercase; color:var(--ink-soft); margin-top:8px;">sweet and savory treats</div>
+        <div style="font-family:'Dancing Script'; font-size:34px; line-height:1; color:var(--magenta);">French-inspired snack box</div>
+        <div style="font-family:'Source Sans 3'; font-size:14px; letter-spacing:0.22em; text-transform:uppercase; color:var(--ink-soft); margin-top:8px;">sweet and savory treats</div>
       </div>
     </div>
   </div>

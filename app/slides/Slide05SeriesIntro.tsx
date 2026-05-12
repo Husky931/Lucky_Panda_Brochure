@@ -35,7 +35,7 @@ const slideHtml = `
     <p style="
       margin:52px 0 0;
       max-width:560px;
-      font-family:'Inter', sans-serif;
+      font-family:'Source Sans 3', sans-serif;
       font-size:30px;
       line-height:1.48;
       font-weight:300;

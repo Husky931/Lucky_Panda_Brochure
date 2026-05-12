@@ -15,23 +15,23 @@ const slideHtml = `
     <div style="flex:1; display:flex; align-items:center; padding-bottom: 34px;">
       <div style="display:grid; grid-template-columns: 1fr;">
         <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
-          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div style="font-family:'Libre Baskerville'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
           <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Milestone &amp; anniversary gifts</div>
         </div>
         <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
-          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div style="font-family:'Libre Baskerville'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
           <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Employee onboarding kits</div>
         </div>
         <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
-          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div style="font-family:'Libre Baskerville'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
           <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Client appreciation gifts</div>
         </div>
         <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); padding: 17px 0;">
-          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div style="font-family:'Libre Baskerville'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
           <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Event gifting</div>
         </div>
         <div style="display:grid; grid-template-columns: 58px 1fr; align-items:baseline; border-top:1px solid var(--hairline); border-bottom:1px solid var(--hairline); padding: 17px 0;">
-          <div style="font-family:'Playfair Display'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
+          <div style="font-family:'Libre Baskerville'; font-style:italic; font-size: 24px; color: var(--magenta);"></div>
           <div class="serif-display" style="font-size: 31px; line-height:1.08; color:var(--ink);">Custom gifting</div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const slideHtml = `
   </div>
 
   <div style="height:100%; display:flex; flex-direction:column; justify-content:center;">
-    <div style="font-family:'Inter'; font-size: 15px; font-weight:700; letter-spacing:0.3em; text-transform:uppercase; color: var(--magenta); margin-bottom: 18px;">
+    <div style="font-family:'Source Sans 3'; font-size: 15px; font-weight:700; letter-spacing:0.3em; text-transform:uppercase; color: var(--magenta); margin-bottom: 18px;">
       Foreigner-led classes
     </div>
     <h3 class="serif-display" style="font-size: 50px; line-height: 1.02; margin: 0 0 16px; color: var(--ink);">
@@ -60,7 +60,7 @@ const slideHtml = `
           <h4 class="serif-display" style="font-size: 33px; line-height:1.05; margin:0 0 9px; color:var(--ink);">
             Popular cocktail-making classes
           </h4>
-          <p style="font-family:'Inter'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
+          <p style="font-family:'Source Sans 3'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
             Shaken classics, simple techniques, and a lively format that works for after-work groups.
           </p>
         </div>
@@ -76,7 +76,7 @@ const slideHtml = `
           <h4 class="serif-display" style="font-size: 33px; line-height:1.05; margin:0 0 9px; color:var(--ink);">
             Cooking classes: make a popular foreign dish
           </h4>
-          <p style="font-family:'Inter'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
+          <p style="font-family:'Source Sans 3'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
             A hands-on session where guests learn, cook together, and sit down with something they made.
           </p>
         </div>

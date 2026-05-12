@@ -6,7 +6,7 @@ const slideHtml = `
       A note <span class="serif-italic">meant</span> for them
     </h2>
 
-    <div style="font-family:'Caveat'; font-size: 48px; color: var(--magenta); line-height: 1.1; margin-bottom: 28px; max-width: 520px;">
+    <div style="font-family:'Dancing Script'; font-size: 48px; color: var(--magenta); line-height: 1.1; margin-bottom: 28px; max-width: 520px;">
       A name, a thank-you, a quiet milestone.
     </div>
 

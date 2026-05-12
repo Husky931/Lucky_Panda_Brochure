@@ -3,7 +3,7 @@
    French-marketing aesthetic system
    ========================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -12,8 +12,8 @@
   --paper:        #FFFDF8;
   --rose-tint:    #F6DCDF;
   --rose-tint-2:  #F4CFD3;
-  --magenta:      #C8395F;       /* flyer accent */
-  --magenta-deep: #A82547;
+  --magenta:      #d00715;       /* brand red */
+  --magenta-deep: #b00612;
   --panda-red:    #D4202A;       /* box red */
   --panda-red-2:  #B61820;
   --ink:          #2B1F1A;       /* text */
@@ -27,7 +27,7 @@
 deck-stage { background: #1a1612; }
 
 section[data-label] {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   color: var(--ink);
   background: var(--cream);
   overflow: hidden;
@@ -50,24 +50,24 @@ section[data-label] {
 
 /* ----------  Type roles  ---------- */
 .script-display {
-  font-family: 'Allura', cursive;
+  font-family: 'Dancing Script', cursive;
   font-weight: 400;
   color: var(--magenta);
   line-height: 0.9;
   letter-spacing: -0.01em;
 }
 .serif-display {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 .serif-italic {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Libre Baskerville', serif;
   font-style: italic;
   font-weight: 400;
 }
 .eyebrow {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 0.32em;
@@ -85,7 +85,7 @@ section[data-label] {
   padding: 14px 36px 16px;
   background: var(--magenta);
   color: var(--cream);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 700;
   letter-spacing: 0.28em;
   font-size: 22px;
@@ -102,7 +102,7 @@ section[data-label] {
   display: grid; place-items: center;
   text-align: center;
   color: var(--magenta);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -131,7 +131,7 @@ section[data-label] {
   display: flex; align-items: center; justify-content: center;
   gap: 14px;
   color: var(--magenta);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Libre Baskerville', serif;
 }
 .fleur::before, .fleur::after {
   content: "";
@@ -150,7 +150,7 @@ section[data-label] {
   box-shadow: 0 30px 60px -30px rgba(43,31,26,0.18);
 }
 .frame.gold { border: 1px solid var(--gold-soft); }
-.frame.rose { background: var(--rose-tint); border: 1px solid rgba(200,57,95,0.28); }
+.frame.rose { background: var(--rose-tint); border: 1px solid rgba(208,7,21,0.28); }
 
 /* corner ornament */
 .corner-orn::before, .corner-orn::after {
@@ -183,13 +183,13 @@ section[data-label] {
   background: var(--magenta);
   color: var(--paper);
   border-radius: 999px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   font-size: 22px;
   border: 2px solid var(--magenta);
-  box-shadow: 0 14px 30px -10px rgba(168,37,71,0.45);
+  box-shadow: 0 14px 30px -10px rgba(208,7,21,0.45);
 }
 
 /* ----------  Pricing tier card  ---------- */
@@ -209,7 +209,7 @@ section[data-label] {
   position: absolute; top: -16px; left: 50%; transform: translateX(-50%);
   background: var(--magenta); color: var(--paper);
   padding: 8px 22px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 16px; font-weight: 700;
   letter-spacing: 0.28em; text-transform: uppercase;
   border-radius: 4px;
@@ -233,7 +233,7 @@ section[data-label] {
 
 /* ----------  Hand annotations / scribble underline  ---------- */
 .scribble {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14'><path d='M2 9 C 40 1, 80 13, 120 6 S 190 4, 198 9' stroke='%23C8395F' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14'><path d='M2 9 C 40 1, 80 13, 120 6 S 190 4, 198 9' stroke='%23d00715' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>");
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 100% 14px;
@@ -290,7 +290,7 @@ body {
   position: absolute; inset: 0;
   display: grid; place-items: center;
   color: var(--paper);
-  font-family: 'Inter';
+  font-family: 'Source Sans 3';
   font-weight: 800;
   font-size: 28px;
   letter-spacing: 0.22em;

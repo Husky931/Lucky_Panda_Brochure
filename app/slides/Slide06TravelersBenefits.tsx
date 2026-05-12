@@ -19,7 +19,7 @@ const slideHtml = `
       flex-direction:column;
       gap:22px;
       max-width:790px;
-      font-family:'Playfair Display', serif;
+      font-family:'Libre Baskerville', serif;
       font-size:31px;
       line-height:1.18;
       color:var(--ink);

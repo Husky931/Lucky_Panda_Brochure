@@ -21,14 +21,14 @@ const slideHtml = `
     <div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 44px; max-width: 1040px;">
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
         <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 9px; color:var(--ink);">For the box</h3>
-        <p style="font-family:'Inter'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">
+        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">
           Branded sleeves, ribbons, lid cards, stickers, printed panels, or campaign-specific packaging details.
         </p>
       </div>
 
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
         <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 9px; color:var(--ink);">For what goes inside</h3>
-        <p style="font-family:'Inter'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">
+        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">
           Dietary swaps, milestone treats, local favourites, wellness pieces, desk accessories, or a fully new edition.
         </p>
       </div>

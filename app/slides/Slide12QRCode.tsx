@@ -47,7 +47,7 @@ const slideHtml = `
       <span class="serif-italic">keeps speaking.</span>
     </h2>
 
-    <div style="font-family:'Caveat'; font-size: 48px; color: var(--magenta); line-height: 1.08; margin-bottom: 26px; max-width: 600px;">
+    <div style="font-family:'Dancing Script'; font-size: 48px; color: var(--magenta); line-height: 1.08; margin-bottom: 26px; max-width: 600px;">
       From a beautiful box to a private branded moment.
     </div>
 
@@ -60,17 +60,17 @@ const slideHtml = `
     <div style="display:grid; grid-template-columns: 1fr; row-gap: 18px; max-width: 690px;">
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
         <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 6px; color:var(--ink);">A message from the CEO or manager</h3>
-        <p style="font-family:'Inter'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">A personal thank-you, holiday greeting, campaign note, or milestone message that feels direct and human.</p>
+        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">A personal thank-you, holiday greeting, campaign note, or milestone message that feels direct and human.</p>
       </div>
 
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
         <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 6px; color:var(--ink);">A team highlight reel</h3>
-        <p style="font-family:'Inter'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">A 60-90 second montage of the year: milestones, event photos, customer wins, internal moments, and music. Especially strong for year-end gifting.</p>
+        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">A 60-90 second montage of the year: milestones, event photos, customer wins, internal moments, and music. Especially strong for year-end gifting.</p>
       </div>
 
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
         <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 6px; color:var(--ink);">Custom digital solutions</h3>
-        <p style="font-family:'Inter'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">Private landing pages, event invitations, surveys, employee recognition walls, or campaign microsites built around the gift.</p>
+        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">Private landing pages, event invitations, surveys, employee recognition walls, or campaign microsites built around the gift.</p>
       </div>
     </div>
   </div>

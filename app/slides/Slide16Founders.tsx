@@ -37,13 +37,13 @@ const slideHtml = `
     <!-- signatures -->
     <div style="display:flex; gap: 70px; align-items:center; margin-top: 16px;">
       <div>
-        <div style="font-family:'Allura'; font-size: 60px; color: var(--magenta); line-height: 0.9;">Tom</div>
-        <div style="font-family:'Inter'; font-size: 14px; letter-spacing:0.3em; text-transform:uppercase; color: var(--ink-soft); margin-top: 4px;">Co-founder · Curation</div>
+        <div style="font-family:'Dancing Script'; font-size: 60px; color: var(--magenta); line-height: 0.9;">Tom</div>
+        <div style="font-family:'Source Sans 3'; font-size: 14px; letter-spacing:0.3em; text-transform:uppercase; color: var(--ink-soft); margin-top: 4px;">Co-founder · Curation</div>
       </div>
       <div style="width: 1px; height: 70px; background: var(--hairline);"></div>
       <div>
-        <div style="font-family:'Allura'; font-size: 60px; color: var(--magenta); line-height: 0.9;">Léo</div>
-        <div style="font-family:'Inter'; font-size: 14px; letter-spacing:0.3em; text-transform:uppercase; color: var(--ink-soft); margin-top: 4px;">Co-founder · Design &amp; Ops</div>
+        <div style="font-family:'Dancing Script'; font-size: 60px; color: var(--magenta); line-height: 0.9;">Léo</div>
+        <div style="font-family:'Source Sans 3'; font-size: 14px; letter-spacing:0.3em; text-transform:uppercase; color: var(--ink-soft); margin-top: 4px;">Co-founder · Design &amp; Ops</div>
       </div>
     </div>
   </div>

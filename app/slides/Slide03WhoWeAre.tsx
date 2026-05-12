@@ -19,7 +19,7 @@ const slideHtml = `
   ">
     <h2 style="
       margin:0;
-      font-family:'Playfair Display';
+      font-family:'Libre Baskerville';
       font-size:78px;
       line-height:1.24;
       font-weight:400;
@@ -47,7 +47,7 @@ const slideHtml = `
   ">
     <p style="
       margin:0 0 42px;
-      font-family:'Cormorant Garamond';
+      font-family:'Source Sans 3';
       font-size:35px;
       line-height:1.43;
       color:var(--ink-soft);
@@ -58,7 +58,7 @@ const slideHtml = `
     </p>
 
     <p style="
-      font-family:'Cormorant Garamond';
+      font-family:'Source Sans 3';
       font-size:35px;
       line-height:1.43;
       color:var(--ink-soft);
@@ -71,7 +71,7 @@ const slideHtml = `
 
     <p style="
       margin:0 0 48px;
-      font-family:'Cormorant Garamond';
+      font-family:'Source Sans 3';
       font-size:35px;
       line-height:1.43;
       color:var(--ink-soft);
@@ -82,12 +82,12 @@ const slideHtml = `
 
     <p style="
       margin:0;
-      font-family:'Cormorant Garamond';
+      font-family:'Source Sans 3';
       font-size:35px;
       line-height:1.43;
       color:var(--ink-soft);
     ">
-      <span style="font-family:'Inter'; font-size:24px; font-weight:700; letter-spacing:0.02em; color:var(--magenta);">Shanghai studio</span>
+      <span style="font-family:'Source Sans 3'; font-size:24px; font-weight:700; letter-spacing:0.02em; color:var(--magenta);">Shanghai studio</span>
       for teams, clients, events, and celebrations.
     </p>
   </div>

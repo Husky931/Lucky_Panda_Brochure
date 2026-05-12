@@ -17,17 +17,17 @@ const slideHtml = `
       </p>
 
       <!-- contact rows -->
-      <div style="display:flex; flex-direction: column; gap: 18px; font-family:'Playfair Display'; font-size: 26px; color: var(--ink);">
+      <div style="display:flex; flex-direction: column; gap: 18px; font-family:'Libre Baskerville'; font-size: 26px; color: var(--ink);">
         <div style="display:flex; gap: 26px; align-items:center;">
-          <span style="font-family:'Inter'; font-size: 13px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); width: 100px;">Email</span>
+          <span style="font-family:'Source Sans 3'; font-size: 13px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); width: 100px;">Email</span>
           hello@luckypandatreats.com
         </div>
         <div style="display:flex; gap: 26px; align-items:center;">
-          <span style="font-family:'Inter'; font-size: 13px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); width: 100px;">Web</span>
+          <span style="font-family:'Source Sans 3'; font-size: 13px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); width: 100px;">Web</span>
           www.luckypandatreats.com
         </div>
         <div style="display:flex; gap: 26px; align-items:center;">
-          <span style="font-family:'Inter'; font-size: 13px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); width: 100px;">Studio</span>
+          <span style="font-family:'Source Sans 3'; font-size: 13px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); width: 100px;">Studio</span>
           Jing'an, Shanghai · 上海市静安区
         </div>
       </div>
@@ -45,13 +45,13 @@ const slideHtml = `
       <div class="frame" style="padding: 56px 60px; text-align:center;">
         <div class="eyebrow" style="font-size: 16px; margin-bottom: 22px;">Scan on WeChat</div>
         <div class="qr-box" style="margin: 0 auto;"></div>
-        <div style="margin-top: 22px; font-family:'Playfair Display'; font-style: italic; font-size: 22px; color: var(--ink-soft);">@LuckyPandaTreats</div>
+        <div style="margin-top: 22px; font-family:'Libre Baskerville'; font-style: italic; font-size: 22px; color: var(--ink-soft);">@LuckyPandaTreats</div>
       </div>
 
       <!-- closing signature -->
       <div style="text-align:center; margin-top: 18px;">
-        <div style="font-family:'Allura'; font-size: 80px; color: var(--magenta); line-height: 1;">À très vite</div>
-        <div style="font-family:'Inter'; font-size: 14px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); margin-top: 10px;">— Tom &amp; Léo, Lucky Panda</div>
+        <div style="font-family:'Dancing Script'; font-size: 80px; color: var(--magenta); line-height: 1;">À très vite</div>
+        <div style="font-family:'Source Sans 3'; font-size: 14px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); margin-top: 10px;">— Tom &amp; Léo, Lucky Panda</div>
       </div>
 
       <!-- floating stamps -->
