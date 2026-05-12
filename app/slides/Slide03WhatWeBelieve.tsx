@@ -51,7 +51,7 @@ export default function Slide03WhatWeBelieve() {
 
         <p
           style={{
-            margin: "34px auto 0",
+            margin: "130px auto 0",
             maxWidth: "820px",
             color: "var(--magenta)",
             fontFamily: "'Source Sans 3', sans-serif",
