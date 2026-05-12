@@ -53,7 +53,7 @@ const slideHtml = `
 export default function Slide13AnythingCustom() {
   return (
     <section
-      data-label="13 Customisation Available"
+      data-label="10 Customisation Available"
       className="paper-grain"
       style={{
         background: "var(--cream)",

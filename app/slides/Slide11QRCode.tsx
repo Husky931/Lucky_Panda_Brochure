@@ -79,7 +79,7 @@ const slideHtml = `
 export default function Slide11QRCode() {
   return (
     <section
-      data-label="11 QR Code Experience"
+      data-label="09 QR Code Experience"
       style={{
         background: "var(--cream)",
         display: "grid",

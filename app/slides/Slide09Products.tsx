@@ -74,7 +74,7 @@ const slideHtml = `
 export default function Slide09Products() {
   return (
     <section
-      data-label="09 The Products"
+      data-label="07 The Products"
       style={{
         background: "var(--cream)",
         display: "grid",

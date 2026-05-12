@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Slide21GlobalJourney() {
   return (
     <section
-      data-label="21 Global Journey"
+      data-label="20 Global Journey"
       style={{
         background: "var(--cream)",
       }}

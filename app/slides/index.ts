@@ -9,7 +9,6 @@ import Slide08InsideTheBox from "./Slide08InsideTheBox";
 import Slide09Products from "./Slide09Products";
 import Slide10ANoteInside from "./Slide10ANoteInside";
 import Slide11QRCode from "./Slide11QRCode";
-import Slide12CustomBranding from "./Slide12CustomBranding";
 import Slide13AnythingCustom from "./Slide13AnythingCustom";
 import Slide14TheJourneyContinues from "./Slide14TheJourneyContinues";
 import Slide15WhoWeAre from "./Slide15WhoWeAre";
@@ -26,14 +25,13 @@ export const slides = [
   Slide03WhatWeBelieve,
   Slide04SeriesIntro,
   Slide05TravelersBenefits,
-  Slide06FirstStopFrance,
-  Slide07FrenchBoxRitual,
   Slide08InsideTheBox,
   Slide09Products,
   Slide10ANoteInside,
   Slide11QRCode,
-  Slide12CustomBranding,
   Slide13AnythingCustom,
+  Slide06FirstStopFrance,
+  Slide07FrenchBoxRitual,
   Slide14TheJourneyContinues,
   Slide15WhoWeAre,
   Slide16Founders,

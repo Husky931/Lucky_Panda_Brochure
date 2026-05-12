@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Slide07FrenchBoxRitual() {
   return (
     <section
-      data-label="07 French Box Ritual"
+      data-label="12 French Box Ritual"
       style={{
         background: "var(--cream)",
       }}
