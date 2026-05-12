@@ -97,6 +97,7 @@ const slideHtml = `
         width:520px;
         aspect-ratio:1672 / 941;
         background-image:url('/what_is_LP/how_we_make_it_yours.png');
+        background-image:url('assets/box-open-flatlay.png');
         background-position:center;
         transform:rotate(5deg);
         z-index:4;

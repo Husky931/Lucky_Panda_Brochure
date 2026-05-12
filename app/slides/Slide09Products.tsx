@@ -7,8 +7,8 @@ const slideHtml = `
     justify-content:center;
     background: var(--cream);
   ">
-    <h2 class="serif-display" style="font-size: 36px; line-height: 1.05; margin: 0 0 22px; color: var(--ink);">
-      1 &mdash; Treats and country based items
+    <h2 class="serif-display" style="font-size: 76px; line-height: 1.05; margin: 0 0 22px; color: var(--ink);">
+      1 &mdash; Treats and cultural items
     </h2>
     <div style="
       display:grid;
@@ -77,7 +77,7 @@ const slideHtml = `
 export default function Slide09Products() {
   return (
     <section
-      data-label="07 1 — Treats and country based items"
+      data-label="08 1 — Treats and country based items"
       style={{
         background: "var(--cream)",
         display: "grid",

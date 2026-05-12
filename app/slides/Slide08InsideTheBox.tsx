@@ -11,7 +11,7 @@ const slideHtml = `
 
     <div class="photo photo-frame" style="
       aspect-ratio: 4/3;
-      background-image: url('assets/box-open-flatlay.png');
+      background-image: url('all_boxes.png');
       background-position: center;
     "></div>
   </div>
@@ -71,7 +71,7 @@ const slideHtml = `
 export default function Slide08InsideTheBox() {
   return (
     <section
-      data-label="06 Inside The Box"
+      data-label="07 Inside The Box"
       className="paper-grain"
       style={{
         background: "var(--cream)",

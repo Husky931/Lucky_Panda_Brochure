@@ -107,7 +107,7 @@ const slideHtml = `
 export default function Slide15WhoWeAre() {
   return (
     <section
-      data-label="14 Who We Are"
+      data-label="15 Who We Are"
       className="paper-grain"
       style={{
         background: "var(--cream)",

@@ -39,5 +39,5 @@ export const slides = [
   Slide18Pricing,
   Slide19FAQ,
   Slide20Contact,
-  Slide21GlobalJourney,
+  Slide21GlobalJourney
 ];

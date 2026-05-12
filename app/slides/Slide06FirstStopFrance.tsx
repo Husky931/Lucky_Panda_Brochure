@@ -39,7 +39,7 @@ const slideHtml = `
 export default function Slide06FirstStopFrance() {
   return (
     <section
-      data-label="11 First Stop France"
+      data-label="12 First Stop France"
       className="paper-grain"
       style={{
         display: "grid",

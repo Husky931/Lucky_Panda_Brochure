@@ -33,7 +33,7 @@ const slideHtml = `
 export default function Slide10ANoteInside() {
   return (
     <section
-      data-label="08 2 — A Personal Employee Note"
+      data-label="09 2 — A Personal Employee Note"
       style={{
         background: "var(--cream)",
         display: "grid",

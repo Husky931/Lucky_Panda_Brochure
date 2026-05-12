@@ -89,7 +89,7 @@ const slideHtml = `
 export default function Slide18Pricing() {
   return (
     <section
-      data-label="17 Pricing"
+      data-label="18 Pricing"
       className="paper-grain"
       style={{
         background: "var(--cream)",

@@ -88,7 +88,7 @@ const slideHtml = `
 export default function Slide17Bespoke() {
   return (
     <section
-      data-label="16 What Else We Offer"
+      data-label="17 What Else We Offer"
       className="paper-grain"
       style={{
         background: "var(--cream)",

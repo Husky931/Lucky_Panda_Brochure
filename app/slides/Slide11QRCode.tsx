@@ -47,7 +47,7 @@ const slideHtml = `
     </h2>
 
     <div style="font-family:'Dancing Script'; font-size: 48px; color: var(--magenta); line-height: 1.08; margin-bottom: 26px; max-width: 600px;">
-      From a beautiful box to a private branded moment.
+      From a beautiful box to a digital branded moment.
     </div>
 
     <p class="body" style="max-width: 650px; margin: 0 0 32px; color: var(--ink-soft);">
@@ -78,7 +78,7 @@ const slideHtml = `
 export default function Slide11QRCode() {
   return (
     <section
-      data-label="09 3 — QR code with digital content"
+      data-label="10 3 — QR code with digital content"
       style={{
         background: "var(--cream)",
         display: "grid",
