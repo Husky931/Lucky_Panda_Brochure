@@ -1,12 +1,12 @@
 const slideHtml = `
   <!-- left: open-box photo with framing -->
   <div style="display:flex; flex-direction:column; justify-content:center;">
-    <div class="eyebrow" style="margin-bottom: 22px;">Curation</div>
+    <div class="eyebrow" style="margin-bottom: 22px;">What's Inside?</div>
     <h2 class="serif-display" style="font-size: 84px; line-height: 1.0; margin: 0 0 20px; color: var(--ink);">
       Inside <span class="serif-italic">the box</span>
     </h2>
     <p class="body" style="max-width: 540px; margin: 0 0 36px;">
-      A curated selection of authentic French treats — sweet, savory, and quietly indulgent. Wrapped in red, sealed with a paw, and ready to land on a desk.
+      A curated selection of authentic, country specific treats — sweet, savory, and quietly indulgent. Wrapped in red, sealed with a paw, and ready to land on a desk.
     </p>
 
     <div class="photo photo-frame" style="
