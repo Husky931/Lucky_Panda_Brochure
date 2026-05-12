@@ -19,7 +19,7 @@ const slideHtml = `
       justify-content:center;
       padding-bottom:22px;
     ">
-      <div class="eyebrow" style="margin-bottom: 24px;">First Station</div>
+      <div class="eyebrow" style="margin-bottom: 24px;">Station One</div>
 
       <div style="font-family:'Dancing Script'; font-size: 52px; color: var(--magenta); line-height: 1.04; margin-bottom: 20px;">
         "Explore France<br/>with your tastebuds &mdash;<br/>and the world too."

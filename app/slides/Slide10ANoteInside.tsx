@@ -3,7 +3,7 @@ const slideHtml = `
   <div class="paper-grain" style="padding: 150px 110px 150px 130px; display:flex; flex-direction:column; justify-content:center; background: var(--rose-tint);">
 
     <h2 class="serif-display" style="font-size: 76px; line-height: 1.02; margin: 0 0 18px; color: var(--ink);">
-      A note <span class="serif-italic">meant</span> for them
+      2 &mdash; A Personal Employee Note
     </h2>
 
     <div style="font-family:'Dancing Script'; font-size: 48px; color: var(--magenta); line-height: 1.1; margin-bottom: 28px; max-width: 520px;">
@@ -33,7 +33,7 @@ const slideHtml = `
 export default function Slide10ANoteInside() {
   return (
     <section
-      data-label="08 A Note Inside"
+      data-label="08 2 — A Personal Employee Note"
       style={{
         background: "var(--cream)",
         display: "grid",

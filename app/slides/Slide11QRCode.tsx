@@ -43,8 +43,7 @@ const slideHtml = `
     <div class="eyebrow" style="margin-bottom: 26px;">Digital keepsake</div>
 
     <h2 class="serif-display" style="font-size: 82px; line-height: 1.02; margin: 0 0 18px; color: var(--ink);">
-      A QR code that
-      <span class="serif-italic">keeps speaking.</span>
+      3 &mdash; QR code with digital content
     </h2>
 
     <div style="font-family:'Dancing Script'; font-size: 48px; color: var(--magenta); line-height: 1.08; margin-bottom: 26px; max-width: 600px;">
@@ -79,7 +78,7 @@ const slideHtml = `
 export default function Slide11QRCode() {
   return (
     <section
-      data-label="09 QR Code Experience"
+      data-label="09 3 — QR code with digital content"
       style={{
         background: "var(--cream)",
         display: "grid",

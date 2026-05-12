@@ -10,7 +10,7 @@ const slideHtml = `
     <div style="width: 88px; height: 1px; background: var(--gold-soft); margin-bottom: 46px;"></div>
 
     <h2 class="serif-display" style="font-size: 84px; line-height: 1.0; margin: 0 0 28px; color: var(--ink);">
-      Customisation<br/>
+      4 &mdash; Customisation<br/>
       <span class="serif-italic">available</span>
     </h2>
 
@@ -53,7 +53,7 @@ const slideHtml = `
 export default function Slide13AnythingCustom() {
   return (
     <section
-      data-label="10 Customisation Available"
+      data-label="10 4 — Customisation Available"
       className="paper-grain"
       style={{
         background: "var(--cream)",
