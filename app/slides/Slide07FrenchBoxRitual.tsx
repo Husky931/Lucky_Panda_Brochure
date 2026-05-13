@@ -9,7 +9,7 @@ export default function Slide07FrenchBoxRitual() {
       }}
     >
       <Image
-        src="/french_box/french_box_3.png"
+        src="/used/slide_07/french_box_3.png"
         alt="French gift box flatlay with curated treats and tasting story cards"
         fill
         sizes="100vw"

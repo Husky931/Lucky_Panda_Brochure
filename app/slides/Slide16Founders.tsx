@@ -6,7 +6,7 @@ const slideHtml = `
       <div class="photo photo-frame" style="
         position: relative;
         width: 100%; aspect-ratio: 1/1;
-        background-image: url('assets/founders.png');
+        background-image: url('/used/slide_16/founders.png');
         background-position: center 25%;
       "></div>
     </div>

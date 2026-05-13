@@ -17,7 +17,7 @@ const slideHtml = `
         box-shadow: 0 28px 70px -36px rgba(43,31,26,0.35);
       "></div>
       <img
-        src="/qr_code.png"
+        src="/used/slide_11/qr_code.png"
         alt="Lucky Panda QR code video message card"
         style="
           position:relative;

@@ -13,7 +13,7 @@ const slideHtml = `
       <div class="photo photo-frame" style="
         width:100%;
         aspect-ratio: 990 / 1280;
-        background-image:url('/assets/france.jpg');
+        background-image:url('/used/slide_06/france.jpg');
         background-position:center;
         transform:rotate(2deg);
       "></div>

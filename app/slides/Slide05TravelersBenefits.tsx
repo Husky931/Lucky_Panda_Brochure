@@ -72,7 +72,7 @@ const slideHtml = `
         top:50px;
         width:604px;
         aspect-ratio:1672 / 941;
-        background-image:url('/what_is_LP/france.png');
+        background-image:url('/used/slide_05/france.png');
         background-position:center;
         transform:rotate(3.5deg);
         z-index:2;
@@ -84,7 +84,7 @@ const slideHtml = `
         top:330px;
         width:548px;
         aspect-ratio:1672 / 941;
-        background-image:url('/what_is_LP/france4.png');
+        background-image:url('/used/slide_05/france4.png');
         background-position:center;
         transform:rotate(-6deg);
         z-index:3;
@@ -96,8 +96,8 @@ const slideHtml = `
         bottom:28px;
         width:520px;
         aspect-ratio:1672 / 941;
-        background-image:url('/what_is_LP/how_we_make_it_yours.png');
-        background-image:url('assets/box-open-flatlay.png');
+        background-image:url('/used/slide_05/how_we_make_it_yours.png');
+        background-image:url('/used/slide_05/box-open-flatlay.png');
         background-position:center;
         transform:rotate(5deg);
         z-index:4;

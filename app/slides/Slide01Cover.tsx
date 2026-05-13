@@ -30,7 +30,7 @@ const slideHtml = `
     <div class="photo photo-frame" style="
         position: relative;
         width: 100%; height: 100%;
-        background-image: url('assets/box-hero-single.png');
+        background-image: url('/used/slide_01/box-hero-single.png');
         transform: rotate(-2deg);
         margin-top: -24px;
     "></div>

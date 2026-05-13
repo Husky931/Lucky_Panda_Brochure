@@ -35,7 +35,7 @@ const slideHtml = `
       z-index: 2;
     "></div>
     <img
-      src="/branded.png"
+      src="/used/slide_13/branded.png"
       alt="Custom branded Lucky Panda shipment with box, printed cards, QR insert, and office supplies"
       style="
         position: absolute;

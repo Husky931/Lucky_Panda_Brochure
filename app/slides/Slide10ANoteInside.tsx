@@ -24,7 +24,7 @@ const slideHtml = `
 
   <!-- right: open-box horizontal photo -->
   <div class="photo" style="
-    background-image: url('personal_note.png');
+    background-image: url('/used/slide_10/personal_note.png');
     background-size: cover;
     background-position: center;
   "></div>

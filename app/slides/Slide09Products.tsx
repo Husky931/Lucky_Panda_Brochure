@@ -34,7 +34,7 @@ const slideHtml = `
     padding: 34px 48px;
   ">
     <img
-      src="/products.png"
+      src="/used/slide_09/products.png"
       alt="Lucky Panda French box product assortment"
       style="display:block; width:100%; height:100%; object-fit:contain;"
     />

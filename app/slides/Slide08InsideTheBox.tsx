@@ -11,7 +11,7 @@ const slideHtml = `
 
     <div class="photo photo-frame" style="
       aspect-ratio: 4/3;
-      background-image: url('all_boxes.png');
+      background-image: url('/used/slide_08/all_boxes.png');
       background-position: center;
     "></div>
   </div>
