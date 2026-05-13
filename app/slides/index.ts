@@ -11,6 +11,7 @@ import Slide10AnythingCustom from "./Slide10AnythingCustom";
 import Slide11FirstStopFrance from "./Slide11FirstStopFrance";
 import Slide12FrenchBoxRitual from "./Slide12FrenchBoxRitual";
 import Slide13TheJourneyContinues from "./Slide13TheJourneyContinues";
+import SlideWhereNext from "./SlideWhereNext";
 import Slide14WhoWeAre from "./Slide14WhoWeAre";
 import Slide15Founders from "./Slide15Founders";
 import Slide16Bespoke from "./Slide16Bespoke";
@@ -33,6 +34,7 @@ export const slides = [
   Slide11FirstStopFrance,
   Slide12FrenchBoxRitual,
   Slide13TheJourneyContinues,
+  SlideWhereNext,
   Slide14WhoWeAre,
   Slide15Founders,
   Slide16Bespoke,

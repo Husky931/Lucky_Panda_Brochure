@@ -75,7 +75,7 @@ const slideHtml = `
         box-shadow:0 28px 64px -28px rgba(43,31,26,0.34);
         overflow:hidden;
       ">
-        <img src="/used/slide_04/team_going_next.png" alt="" style="
+        <img src="/used/slide_04/team.png" alt="" style="
           display:block;
           width:100%;
           height:100%;
