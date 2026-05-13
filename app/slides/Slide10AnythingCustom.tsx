@@ -35,7 +35,7 @@ const slideHtml = `
       z-index: 2;
     "></div>
     <img
-      src="/used/slide_13/branded.png"
+      src="/used/slide_10/branded.png"
       alt="Custom branded Lucky Panda shipment with box, printed cards, QR insert, and office supplies"
       style="
         position: absolute;
@@ -50,10 +50,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide13AnythingCustom() {
+export default function Slide10AnythingCustom() {
   return (
     <section
-      data-label="11 4 — Customisation Available"
+      data-label="10 4 — Customisation Available"
       className="paper-grain"
       style={{
         background: "var(--cream)",

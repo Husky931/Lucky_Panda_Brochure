@@ -6,7 +6,7 @@ const slideHtml = `
       <div class="photo photo-frame" style="
         position: relative;
         width: 100%; aspect-ratio: 1/1;
-        background-image: url('/used/slide_16/founders.png');
+        background-image: url('/used/slide_15/founders.png');
         background-position: center 25%;
       "></div>
     </div>
@@ -49,10 +49,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide16Founders() {
+export default function Slide15Founders() {
   return (
     <section
-      data-label="16 Founders"
+      data-label="15 Founders"
       className="paper-grain"
       style={{
         background: "var(--cream)",

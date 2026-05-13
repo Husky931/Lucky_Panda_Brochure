@@ -13,7 +13,7 @@ const slideHtml = `
       <div class="photo photo-frame" style="
         width:100%;
         aspect-ratio: 990 / 1280;
-        background-image:url('/used/slide_06/france.jpg');
+        background-image:url('/used/slide_11/france.jpg');
         background-position:center;
         transform:rotate(2deg);
       "></div>
@@ -36,10 +36,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide06FirstStopFrance() {
+export default function Slide11FirstStopFrance() {
   return (
     <section
-      data-label="12 First Stop France"
+      data-label="11 First Stop France"
       className="paper-grain"
       style={{
         display: "grid",

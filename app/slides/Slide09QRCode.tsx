@@ -17,7 +17,7 @@ const slideHtml = `
         box-shadow: 0 28px 70px -36px rgba(43,31,26,0.35);
       "></div>
       <img
-        src="/used/slide_11/qr_code.png"
+        src="/used/slide_09/qr_code.png"
         alt="Lucky Panda QR code video message card"
         style="
           position:relative;
@@ -75,10 +75,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide11QRCode() {
+export default function Slide09QRCode() {
   return (
     <section
-      data-label="10 3 — QR code with digital content"
+      data-label="09 3 — QR code with digital content"
       style={{
         background: "var(--cream)",
         display: "grid",

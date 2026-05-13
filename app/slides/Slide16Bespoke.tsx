@@ -52,7 +52,7 @@ const slideHtml = `
     <div style="display:grid; grid-template-columns: 1fr; gap: 28px;">
       <div style="display:grid; grid-template-columns: 330px 1fr; gap: 30px; align-items:center; border-top:1px solid var(--hairline); padding-top: 22px;">
         <img
-          src="/used/slide_17/cocktails.png"
+          src="/used/slide_16/cocktails.png"
           alt="Cocktail making class"
           style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center; box-shadow: 0 20px 46px -30px rgba(43,31,26,0.45);"
         />
@@ -68,7 +68,7 @@ const slideHtml = `
 
       <div style="display:grid; grid-template-columns: 330px 1fr; gap: 30px; align-items:center; border-top:1px solid var(--hairline); border-bottom:1px solid var(--hairline); padding: 22px 0;">
         <img
-          src="/used/slide_17/cooking.png"
+          src="/used/slide_16/cooking.png"
           alt="Cooking class"
           style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center; box-shadow: 0 20px 46px -30px rgba(43,31,26,0.45);"
         />
@@ -85,10 +85,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide17Bespoke() {
+export default function Slide16Bespoke() {
   return (
     <section
-      data-label="17 What Else We Offer"
+      data-label="16 What Else We Offer"
       className="paper-grain"
       style={{
         background: "var(--cream)",

@@ -3,21 +3,21 @@ import Slide02AStoryInEveryBox from "./Slide02AStoryInEveryBox";
 import Slide03WhatWeBelieve from "./Slide03WhatWeBelieve";
 import Slide04SeriesIntro from "./Slide04SeriesIntro";
 import Slide05TravelersBenefits from "./Slide05TravelersBenefits";
-import Slide06FirstStopFrance from "./Slide06FirstStopFrance";
-import Slide07FrenchBoxRitual from "./Slide07FrenchBoxRitual";
-import Slide08InsideTheBox from "./Slide08InsideTheBox";
-import Slide09Products from "./Slide09Products";
-import Slide10ANoteInside from "./Slide10ANoteInside";
-import Slide11QRCode from "./Slide11QRCode";
-import Slide13AnythingCustom from "./Slide13AnythingCustom";
-import Slide14TheJourneyContinues from "./Slide14TheJourneyContinues";
-import Slide15WhoWeAre from "./Slide15WhoWeAre";
-import Slide16Founders from "./Slide16Founders";
-import Slide17Bespoke from "./Slide17Bespoke";
-import Slide18Pricing from "./Slide18Pricing";
-import Slide19FAQ from "./Slide19FAQ";
-import Slide20Contact from "./Slide20Contact";
-import Slide21GlobalJourney from "./Slide21GlobalJourney";
+import Slide06InsideTheBox from "./Slide06InsideTheBox";
+import Slide07Products from "./Slide07Products";
+import Slide08ANoteInside from "./Slide08ANoteInside";
+import Slide09QRCode from "./Slide09QRCode";
+import Slide10AnythingCustom from "./Slide10AnythingCustom";
+import Slide11FirstStopFrance from "./Slide11FirstStopFrance";
+import Slide12FrenchBoxRitual from "./Slide12FrenchBoxRitual";
+import Slide13TheJourneyContinues from "./Slide13TheJourneyContinues";
+import Slide14WhoWeAre from "./Slide14WhoWeAre";
+import Slide15Founders from "./Slide15Founders";
+import Slide16Bespoke from "./Slide16Bespoke";
+import Slide17Pricing from "./Slide17Pricing";
+import Slide18FAQ from "./Slide18FAQ";
+import Slide19Contact from "./Slide19Contact";
+import Slide20GlobalJourney from "./Slide20GlobalJourney";
 
 export const slides = [
   Slide01Cover,
@@ -25,19 +25,19 @@ export const slides = [
   Slide03WhatWeBelieve,
   Slide04SeriesIntro,
   Slide05TravelersBenefits,
-  Slide08InsideTheBox,
-  Slide09Products,
-  Slide10ANoteInside,
-  Slide11QRCode,
-  Slide13AnythingCustom,
-  Slide06FirstStopFrance,
-  Slide07FrenchBoxRitual,
-  Slide14TheJourneyContinues,
-  Slide15WhoWeAre,
-  Slide16Founders,
-  Slide17Bespoke,
-  Slide18Pricing,
-  Slide19FAQ,
-  Slide20Contact,
-  Slide21GlobalJourney
+  Slide06InsideTheBox,
+  Slide07Products,
+  Slide08ANoteInside,
+  Slide09QRCode,
+  Slide10AnythingCustom,
+  Slide11FirstStopFrance,
+  Slide12FrenchBoxRitual,
+  Slide13TheJourneyContinues,
+  Slide14WhoWeAre,
+  Slide15Founders,
+  Slide16Bespoke,
+  Slide17Pricing,
+  Slide18FAQ,
+  Slide19Contact,
+  Slide20GlobalJourney,
 ];

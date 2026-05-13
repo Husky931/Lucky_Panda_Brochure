@@ -1,7 +1,7 @@
 const slideHtml = `
   <!-- left photo full-bleed -->
   <div class="photo" style="
-    background-image: url('/used/slide_14/box-open-vertical-french.png');
+    background-image: url('/used/slide_13/box-open-vertical-french.png');
     background-size: cover;
     background-position: center;
   "></div>
@@ -86,10 +86,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide14TheJourneyContinues() {
+export default function Slide13TheJourneyContinues() {
   return (
     <section
-      data-label="14 The Journey Continues"
+      data-label="13 The Journey Continues"
       style={{
         background: "var(--cream)",
         display: "grid",

@@ -1,16 +1,16 @@
 import Image from "next/image";
 
-export default function Slide07FrenchBoxRitual() {
+export default function Slide20GlobalJourney() {
   return (
     <section
-      data-label="13 French Box Ritual"
+      data-label="20 Global Journey"
       style={{
         background: "var(--cream)",
       }}
     >
       <Image
-        src="/used/slide_07/french_box_3.png"
-        alt="French gift box flatlay with curated treats and tasting story cards"
+        src="/used/slide_20/slide_33.jpg"
+        alt="Global journey slide"
         fill
         sizes="100vw"
         style={{

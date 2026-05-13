@@ -11,7 +11,7 @@ const slideHtml = `
 
     <div class="photo photo-frame" style="
       aspect-ratio: 4/3;
-      background-image: url('/used/slide_08/all_boxes.png');
+      background-image: url('/used/slide_06/all_boxes.png');
       background-position: center;
     "></div>
   </div>
@@ -68,10 +68,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide08InsideTheBox() {
+export default function Slide06InsideTheBox() {
   return (
     <section
-      data-label="07 Inside The Box"
+      data-label="06 Inside The Box"
       className="paper-grain"
       style={{
         background: "var(--cream)",

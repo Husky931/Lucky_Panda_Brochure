@@ -34,17 +34,17 @@ const slideHtml = `
     padding: 34px 48px;
   ">
     <img
-      src="/used/slide_09/products.png"
+      src="/used/slide_07/products_2.png"
       alt="Lucky Panda French box product assortment"
       style="display:block; width:100%; height:100%; object-fit:contain;"
     />
   </div>
 `;
 
-export default function Slide09Products() {
+export default function Slide07Products() {
   return (
     <section
-      data-label="08 1 — Treats and country based items"
+      data-label="07 1 — Treats and country based items"
       style={{
         background: "var(--cream)",
         display: "grid",
