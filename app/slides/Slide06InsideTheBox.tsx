@@ -5,9 +5,32 @@ const slideHtml = `
     <h2 class="serif-display" style="font-size: 84px; line-height: 1.0; margin: 0 0 20px; color: var(--ink);">
       Inside <span class="serif-italic">the box</span>
     </h2>
-    <p class="body" style="max-width: 540px; margin: 0 0 36px;">
-      A curated selection of authentic, country specific treats — sweet, savory, and quietly indulgent. Wrapped in red, sealed with a paw, and ready to land on a desk.
-    </p>
+    <div style="
+      display:grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 24px;
+      align-items:start;
+      max-width: 660px;
+      margin: 0 0 30px;
+    ">
+      <p class="body" style="margin: 0; font-size: 21px; line-height: 1.45;">
+        Our box mainly consists of four parts, each designed to make the gift feel personal, memorable, and ready to share.
+      </p>
+      <p style="
+        border-left: 1px solid var(--gold-soft);
+        padding-left: 24px;
+        font-family:'Libre Baskerville', serif;
+        font-size: 21px;
+        line-height: 1.38;
+        margin: 0;
+        color: var(--ink);
+      ">
+        <span style="color: var(--magenta);">1</span> Treats and a cultural keepsake<br/>
+        <span style="color: var(--magenta);">2</span> Personal employee note<br/>
+        <span style="color: var(--magenta);">3</span> QR code with digital content<br/>
+        <span style="color: var(--magenta);">4</span> Customisation available
+      </p>
+    </div>
 
     <div class="photo photo-frame" style="
       aspect-ratio: 4/3;
@@ -40,7 +63,7 @@ const slideHtml = `
         <li>Premium chocolates &amp; truffles</li>
         <li>Gourmet biscuits &amp; mini cakes</li>
         <li>Artisan jams, honey &amp; confections</li>
-        <li>Handpicked, imported from France</li>
+        <li>Handpicked, imported from the visiting country</li>
       </ul>
       <div style="width:100%; height:2px; background:var(--ink); opacity:0.9; margin-top: 38px;"></div>
     </div>

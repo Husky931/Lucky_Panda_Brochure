@@ -44,7 +44,7 @@ export default function Slide03WhatWeBelieve() {
         >
           Your team had a great month, and you want to surprise them with
           something unique. Or maybe there is one final push ahead, and they
-          need a small spark. A personalised gift can leave a positive mark:
+          need a small spark. A small gift can have a big impact:
           a little recharge, a desk-side treat, and something to chat about
           during lunch.
         </p>

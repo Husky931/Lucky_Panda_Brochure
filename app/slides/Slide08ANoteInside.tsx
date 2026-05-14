@@ -6,9 +6,6 @@ const slideHtml = `
       2 &mdash; A Personal Employee Note
     </h2>
 
-    <div style="font-family:'Dancing Script'; font-size: 48px; color: var(--magenta); line-height: 1.1; margin-bottom: 28px; max-width: 520px;">
-      A name, a thank-you, a quiet milestone.
-    </div>
 
     <div class="fleur" style="max-width: 320px; margin: 0 0 28px; justify-content: flex-start;">
       <span><svg width="22" height="22"><use href="#fleur"/></svg></span>

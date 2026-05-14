@@ -36,7 +36,7 @@ const slideHtml = `
 
       <li style="display:flex; align-items:flex-start;">
         <span class="dot-mark" style="width:11px; height:11px; margin-top:13px;"></span>
-        QR message or digital experience from a CEO or manager
+        QR message or QR based digital experience from a CEO or manager
       </li>
 
       <li style="display:flex; align-items:flex-start;">
