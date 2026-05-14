@@ -1,4 +1,4 @@
-export default function SlideWhereNext() {
+export default function Slide14WhereNext() {
   return (
     <section
       data-label="14 Where the Panda Goes Next"

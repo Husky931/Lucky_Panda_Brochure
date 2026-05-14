@@ -8,7 +8,7 @@ const slideHtml = `
 
   <!-- right: series closing note / next destinations -->
   <div class="paper-grain" style="
-    padding: 92px 104px 86px;
+    padding: 42px 104px 86px;
     display:grid;
     grid-template-rows: 0.92fr 1.08fr;
     background: var(--rose-tint);
@@ -17,7 +17,7 @@ const slideHtml = `
       display:flex;
       flex-direction:column;
       justify-content:center;
-      padding-bottom:22px;
+      padding-bottom:0px;
     ">
       <div class="eyebrow" style="margin-bottom: 24px;">Station One</div>
 
@@ -30,7 +30,7 @@ const slideHtml = `
     </div>
 
     <div style="
-      padding-top:28px;
+      padding-top:0px;
       display:flex;
       flex-direction:column;
       justify-content:flex-start;
@@ -71,6 +71,10 @@ const slideHtml = `
         <div style="border-top: 1px solid var(--hairline); padding-top: 8px;">
           <h4 class="serif-display" style="font-size: 19px; line-height:1.1; margin:0 0 2px; color:var(--ink);">Chocolate cornetti</h4>
           <p style="font-family:'Source Sans 3'; font-size:13px; line-height:1.3; margin:0; color:var(--ink-soft);">Wrapped pastry treats that turn the box into a morning or afternoon ritual.</p>
+        </div>
+        <div style="border-top: 1px solid var(--hairline); padding-top: 8px;">
+          <h4 class="serif-display" style="font-size: 19px; line-height:1.1; margin:0 0 2px; color:var(--ink);">Savon de Marseille soap</h4>
+          <p style="font-family:'Source Sans 3'; font-size:13px; line-height:1.3; margin:0; color:var(--ink-soft);">A classic French daily-use keepsake with a clean, simple scent.</p>
         </div>
       </div>
 

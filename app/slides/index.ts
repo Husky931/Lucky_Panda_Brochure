@@ -11,14 +11,14 @@ import Slide10AnythingCustom from "./Slide10AnythingCustom";
 import Slide11FirstStopFrance from "./Slide11FirstStopFrance";
 import Slide12FrenchBoxRitual from "./Slide12FrenchBoxRitual";
 import Slide13TheJourneyContinues from "./Slide13TheJourneyContinues";
-import SlideWhereNext from "./SlideWhereNext";
-import Slide14WhoWeAre from "./Slide14WhoWeAre";
-import Slide15Founders from "./Slide15Founders";
-import Slide16Bespoke from "./Slide16Bespoke";
-import Slide17Pricing from "./Slide17Pricing";
-import Slide18FAQ from "./Slide18FAQ";
-import Slide19Contact from "./Slide19Contact";
-import Slide20GlobalJourney from "./Slide20GlobalJourney";
+import Slide14WhereNext from "./Slide14WhereNext";
+import Slide15WhoWeAre from "./Slide15WhoWeAre";
+import Slide16Founders from "./Slide16Founders";
+import Slide17Bespoke from "./Slide17Bespoke";
+import Slide18Pricing from "./Slide18Pricing";
+import Slide19FAQ from "./Slide19FAQ";
+import Slide20Contact from "./Slide20Contact";
+import Slide21GlobalJourney from "./Slide21GlobalJourney";
 
 export const slides = [
   Slide01Cover,
@@ -34,12 +34,12 @@ export const slides = [
   Slide11FirstStopFrance,
   Slide12FrenchBoxRitual,
   Slide13TheJourneyContinues,
-  SlideWhereNext,
-  Slide14WhoWeAre,
-  Slide15Founders,
-  Slide16Bespoke,
-  Slide17Pricing,
-  Slide18FAQ,
-  Slide19Contact,
-  Slide20GlobalJourney,
+  Slide14WhereNext,
+  Slide15WhoWeAre,
+  Slide16Founders,
+  Slide17Bespoke,
+  Slide18Pricing,
+  Slide19FAQ,
+  Slide20Contact,
+  Slide21GlobalJourney,
 ];

@@ -39,7 +39,7 @@ const slideHtml = `
   </div>
 
   <div style="height:100%; display:flex; flex-direction:column; justify-content:center;">
-    <div style="font-family:'Source Sans 3'; font-size: 15px; font-weight:700; letter-spacing:0.3em; text-transform:uppercase; color: var(--magenta); margin-bottom: 18px;">
+    <div style="font-family:'Source Sans 3'; font-size: 20px; font-weight:700; letter-spacing:0.3em; text-transform:uppercase; color: var(--magenta); margin-bottom: 18px;">
       Foreigner-led classes
     </div>
     <h3 class="serif-display" style="font-size: 50px; line-height: 1.02; margin: 0 0 16px; color: var(--ink);">
@@ -85,10 +85,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide16Bespoke() {
+export default function Slide17Bespoke() {
   return (
     <section
-      data-label="16 What Else We Offer"
+      data-label="17 What Else We Offer"
       className="paper-grain"
       style={{
         background: "var(--cream)",

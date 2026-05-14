@@ -87,8 +87,7 @@ const slideHtml = `
       line-height:1.43;
       color:var(--ink-soft);
     ">
-      <span style="font-family:'Source Sans 3'; font-size:24px; font-weight:700; letter-spacing:0.02em; color:var(--magenta);">Shanghai studio</span>
-      for teams, clients, events, and celebrations.
+      Suitable for for teams, clients, events, and celebrations.
     </p>
   </div>
 
@@ -104,10 +103,10 @@ const slideHtml = `
   "></div>
 `;
 
-export default function Slide14WhoWeAre() {
+export default function Slide15WhoWeAre() {
   return (
     <section
-      data-label="14 Who We Are"
+      data-label="15 Who We Are"
       className="paper-grain"
       style={{
         background: "var(--cream)",

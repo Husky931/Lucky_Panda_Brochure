@@ -18,7 +18,6 @@ const slideHtml = `
   <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 36px; align-items: stretch;">
     <!-- Tier 1 -->
     <div class="tier">
-      <div style="font-family:'Source Sans 3'; font-size: 14px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); margin-bottom: 12px;">Tier 01</div>
       <h3 class="serif-display" style="font-size: 48px; line-height: 1; margin: 0 0 8px; color: var(--ink);">Light</h3>
       <div class="serif-italic" style="font-size: 22px; color: var(--magenta); margin-bottom: 28px;">A simple country box</div>
 
@@ -38,7 +37,6 @@ const slideHtml = `
     <!-- Tier 2 (featured) -->
     <div class="tier featured">
       <div class="tier-tag">Most chosen</div>
-      <div style="font-family:'Source Sans 3'; font-size: 14px; letter-spacing:0.32em; text-transform:uppercase; color: var(--magenta); margin-bottom: 12px;">Tier 02</div>
       <h3 class="serif-display" style="font-size: 48px; line-height: 1; margin: 0 0 8px; color: var(--ink);">Standard</h3>
       <div class="serif-italic" style="font-size: 22px; color: var(--magenta); margin-bottom: 28px;">Co-branded, with personal notes</div>
 
@@ -58,7 +56,6 @@ const slideHtml = `
 
     <!-- Tier 3 -->
     <div class="tier">
-      <div style="font-family:'Source Sans 3'; font-size: 14px; letter-spacing:0.32em; text-transform:uppercase; color: var(--ink-soft); margin-bottom: 12px;">Tier 03</div>
       <h3 class="serif-display" style="font-size: 48px; line-height: 1; margin: 0 0 8px; color: var(--ink);">Enterprise</h3>
       <div class="serif-italic" style="font-size: 22px; color: var(--magenta); margin-bottom: 28px;">A box designed only for you</div>
 
@@ -86,10 +83,10 @@ const slideHtml = `
   </div>
 `;
 
-export default function Slide17Pricing() {
+export default function Slide18Pricing() {
   return (
     <section
-      data-label="17 Pricing"
+      data-label="18 Pricing"
       className="paper-grain"
       style={{
         background: "var(--cream)",
