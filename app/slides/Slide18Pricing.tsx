@@ -22,16 +22,14 @@ const slideHtml = `
       <div class="serif-italic" style="font-size: 22px; color: var(--magenta); margin-bottom: 28px;">A simple country box</div>
 
       <div style="display:flex; align-items:baseline; gap: 8px; margin-bottom: 28px;">
-        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥120</span>
+        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥145</span>
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
       <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 19px; color: var(--ink); flex: 1;">
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Standard country curation</li>
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Lucky Panda branded box</li>
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Printed greeting card</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>5 products</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Personal note per recipient</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Single-address delivery</li>
       </ul>
-      <div style="margin-top: 28px; font-family:'Source Sans 3'; font-size: 14px; color: var(--ink-soft); letter-spacing:0.16em; text-transform:uppercase;">MOQ — 30 boxes</div>
     </div>
 
     <!-- Tier 2 (featured) -->
@@ -45,13 +43,11 @@ const slideHtml = `
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
       <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 19px; color: var(--ink); flex: 1;">
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Everything in Light</li>
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Co-branded sleeve &amp; ribbon</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>8 products</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Personal note per recipient</li>
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>CEO QR video card</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>QR digital experience</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Multi-address delivery</li>
       </ul>
-      <div style="margin-top: 28px; font-family:'Source Sans 3'; font-size: 14px; color: var(--ink-soft); letter-spacing:0.16em; text-transform:uppercase;">MOQ — 50 boxes</div>
     </div>
 
     <!-- Tier 3 -->
@@ -64,12 +60,14 @@ const slideHtml = `
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
       <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 19px; color: var(--ink); flex: 1;">
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Original curation theme</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>12 products (3 high end)</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Personal note per recipient</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>QR digital experience</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Custom-illustrated packaging</li>
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Story-rich ingredient labels</li>
-        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>End-to-end project management</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Customisation of products </li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Country based storybook</li>
+        <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Multi-address delivery</li>
       </ul>
-      <div style="margin-top: 28px; font-family:'Source Sans 3'; font-size: 14px; color: var(--ink-soft); letter-spacing:0.16em; text-transform:uppercase;">From — 80 boxes</div>
     </div>
   </div>
 
