@@ -7,6 +7,8 @@ const slideHtml = `
     justify-content:center;
     background: var(--cream);
   ">
+    <div class="eyebrow" style="margin-bottom: 26px;">Gift contents</div>
+
     <h2 class="serif-display" style="font-size: 76px; line-height: 1.05; margin: 0 0 22px; color: var(--ink);">
       1 &mdash; Treats and a cultural keepsake
     </h2>
@@ -27,7 +29,7 @@ const slideHtml = `
 
   <!-- right: product photography -->
   <div style="
-    background: linear-gradient(180deg, #ead6bf 0%, #d7bea3 100%);s
+    background: linear-gradient(180deg, #ead6bf 0%, #d7bea3 100%);
     display:flex;
     align-items:center;
     justify-content:center;

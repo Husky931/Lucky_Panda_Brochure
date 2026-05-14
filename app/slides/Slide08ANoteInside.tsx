@@ -2,20 +2,20 @@ const slideHtml = `
   <!-- left: editorial -->
   <div class="paper-grain" style="padding: 150px 110px 150px 130px; display:flex; flex-direction:column; justify-content:center; background: var(--rose-tint);">
 
+    <div class="eyebrow" style="margin-bottom: 26px;">Personal message</div>
+
     <h2 class="serif-display" style="font-size: 76px; line-height: 1.02; margin: 0 0 18px; color: var(--ink);">
       2 &mdash; A Personal Employee Note
     </h2>
 
+    <div style="width: full; height: 1px; background: var(--gold-soft); margin-bottom: 32px; margin-top: 5px; "></div>
 
-    <div class="fleur" style="max-width: 320px; margin: 0 0 28px; justify-content: flex-start;">
-      <span><svg width="22" height="22"><use href="#fleur"/></svg></span>
-    </div>
 
-    <p class="body-lg" style="max-width: 540px; margin: 0 0 20px; color: var(--ink);">
-      Tucked into every lid, a printed card with room for the recipient&apos;s name — and for the message you want them to carry home.
+    <p class="body-lg" style="max-width: 540px; margin: 0 0 20px; margin-top: 50px; color: var(--ink);">
+      Each box is delivered with a personalized card with the recipient&apos;s name — and for the message you want them to carry home.
     </p>
-    <p class="body" style="max-width: 540px; margin: 0; color: var(--ink-soft);">
-      We set type and pack each note by hand so it reads like a small letter, not a form. Pair it with HR-led campaigns, manager thank-yous, or a single heartfelt line from leadership.
+    <p class="body" style="max-width: 540px; margin: 0; margin-top: 30px;  color: var(--ink-soft);">
+    Besides positive and encouraging messages, the note can contain HR-led campaigns, monthly goals, manager thank-yous, or a single heartfelt line from leadership.
     </p>
   </div>
 

@@ -6,7 +6,7 @@ const slideHtml = `
     flex-direction: column;
     justify-content: center;
   ">
-    <div class="eyebrow" style="font-size: 17px; margin-bottom: 24px;">Customisation</div>
+    <div class="eyebrow" style="margin-bottom: 26px;">Customisation</div>
     <div style="width: 88px; height: 1px; background: var(--gold-soft); margin-bottom: 46px;"></div>
 
     <h2 class="serif-display" style="font-size: 84px; line-height: 1.0; margin: 0 0 28px; color: var(--ink);">
