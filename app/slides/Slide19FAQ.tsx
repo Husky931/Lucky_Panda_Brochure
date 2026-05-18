@@ -8,13 +8,8 @@ const slideHtml = `
 
   <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 26px 52px;">
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What is Lucky Panda?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">A Shanghai-based creative gifting studio helping companies make team moments, client events, and celebrations feel personal.</p>
-    </div>
-
-    <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What comes inside the box?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Curated sweets, snacks, cultural keepsakes, a personal note, QR digital content, and destination story details.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Can we customize the box?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes. The box, products, supplementary items, branded keepsakes, and full curation can be tailored with your HR or PR team.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
@@ -23,28 +18,33 @@ const slideHtml = `
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What can the QR code open?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">A CEO or manager video, private landing page, team highlight reel, event invitation, survey, or campaign microsite.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What comes inside the box?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Curated sweets, snacks, cultural keepsakes, a personal note, QR digital content, and destination story details.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Can we customize the box?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes. The box, products, supplementary items, branded keepsakes, and full curation can be tailored with your HR or PR team.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Do you have a minimum order?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes — 30 boxes is our minimum order.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Which edition should we choose?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Light starts with 5 products, Standard adds 8 products and QR content, and Enterprise includes 12 products plus custom packaging.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Where do you deliver?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Currently across the wider Shanghai area.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Who is it designed for?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Teams, clients, events, celebrations, onboarding kits, milestone gifts, anniversary moments, and employee recognition campaigns.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Do you offer discounts?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes — orders over 100 boxes qualify for a volume discount.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">How do we begin?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Tell us who you&apos;d like to surprise. We&apos;ll reply within a working day with three options to choose from.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">How far in advance should we order?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Please place your order at least 7 days in advance so we can curate, prepare, and deliver with care.</p>
+    </div>
+
+    <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Can we order mixed edition boxes?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes — you can mix editions freely, as long as the 30-box minimum is met overall.</p>
     </div>
   </div>
 `;
