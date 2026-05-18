@@ -8,43 +8,43 @@ const slideHtml = `
 
   <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 26px 52px;">
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">How long do orders take?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Standard editions ship within 7 working days. Co-branded orders, 14 days. Bespoke, 4–6 weeks.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What is Lucky Panda?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">A Shanghai-based creative gifting studio helping companies make team moments, client events, and celebrations feel personal.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What's your minimum order?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">30 boxes for L'Essentiel. 50 for personalized. 80 for fully bespoke editions.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What comes inside the box?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Curated sweets, snacks, cultural keepsakes, a personal note, QR digital content, and destination story details.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Multiple addresses?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes. Send us a CSV — we ship across China and to most international addresses.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Can every gift feel personal?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes. Each box can include a printed card with the recipient&apos;s name, team, milestone, or message from leadership.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Do you offer fapiao?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes — both 增值税普通发票 and 专用发票 are available on every order.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What can the QR code open?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">A CEO or manager video, private landing page, team highlight reel, event invitation, survey, or campaign microsite.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Do you handle Chinese New Year rush?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">We do — please reserve by mid-November to lock in CNY production windows.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Can we customize the box?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes. The box, products, supplementary items, branded keepsakes, and full curation can be tailored with your HR or PR team.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">What can I personalize?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Inside-lid message, sleeve, ribbon, greeting card, item swaps, CEO QR card — and the full curation, on bespoke.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Which edition should we choose?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Light starts with 5 products, Standard adds 8 products and QR content, and Enterprise includes 12 products plus custom packaging.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Are the boxes recyclable?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Yes — corrugated FSC stock, soy-based inks, recyclable filler. No plastic windows, ever.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Who is it designed for?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Teams, clients, events, celebrations, onboarding kits, milestone gifts, anniversary moments, and employee recognition campaigns.</p>
     </div>
 
     <div style="border-top: 1px solid var(--hairline); padding-top: 22px;">
-      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">Can I order a sample first?</h4>
-      <p class="body-tight" style="margin: 0; font-size: 18px;">Of course. Sample boxes are sent at cost — usually within 3 days, anywhere in mainland China.</p>
+      <h4 style="font-family:'Libre Baskerville'; font-weight:600; font-size: 24px; margin: 0 0 6px; color:var(--ink);">How do we begin?</h4>
+      <p class="body-tight" style="margin: 0; font-size: 18px;">Tell us who you&apos;d like to surprise. We&apos;ll reply within a working day with three options to choose from.</p>
     </div>
   </div>
 `;
