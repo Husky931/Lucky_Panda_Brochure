@@ -299,3 +299,23 @@ body {
   border-radius: 8px;
   margin: auto;
 }
+
+/* ----------  Print: suppress shadows + decorative offset matting ---------- */
+/* PDF rasterizers render box-shadow as flat gray rectangles; the offset
+   background-color divs behind hero images read as accidental gray blocks
+   once rasterized. Strip both for print and let the hairline borders carry
+   the framing. Screen rendering is unchanged. */
+@media print {
+  .frame,
+  .photo-frame,
+  .cta-pill,
+  .qr-box {
+    box-shadow: none !important;
+  }
+  .frame {
+    border-color: rgba(43,31,26,0.22) !important;
+  }
+  .print-hide {
+    display: none !important;
+  }
+}

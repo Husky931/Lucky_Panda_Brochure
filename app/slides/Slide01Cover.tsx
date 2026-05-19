@@ -26,7 +26,7 @@ const slideHtml = `
 
   <!-- Right: hero photograph -->
   <div style="position:relative; padding: 80px 100px 80px 0;">
-    <div style="position:absolute; inset:80px 100px 80px 0; background: var(--rose-tint);"></div>
+    <div class="print-hide" style="position:absolute; inset:80px 100px 80px 0; background: var(--rose-tint);"></div>
     <div class="photo photo-frame" style="
         position: relative;
         width: 100%; height: 100%;

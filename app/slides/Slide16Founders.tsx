@@ -2,7 +2,7 @@ const slideHtml = `
   <!-- left: photo -->
   <div style="padding: 130px 60px 130px 130px; display:flex; align-items:center;">
     <div style="position: relative; width: 100%;">
-      <div style="position:absolute; inset: -20px; background: var(--rose-tint); transform: rotate(-2deg);"></div>
+      <div class="print-hide" style="position:absolute; inset: -20px; background: var(--rose-tint); transform: rotate(-2deg);"></div>
       <div class="photo photo-frame" style="
         position: relative;
         width: 100%; aspect-ratio: 1/1;

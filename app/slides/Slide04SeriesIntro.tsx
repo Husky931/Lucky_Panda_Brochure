@@ -60,12 +60,6 @@ const slideHtml = `
       width:1100px;
       transform:rotate(-7deg);
     ">
-      <div style="
-        position:absolute;
-        inset:-24px;
-        transform:rotate(4deg);
-      "></div>
-
       <div class="photo-frame" style="
         position:relative;
         width:100%;

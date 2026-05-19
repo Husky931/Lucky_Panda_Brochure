@@ -8,7 +8,7 @@ const slideHtml = `
     background: linear-gradient(180deg, var(--cream) 0%, var(--rose-tint) 100%);
   ">
     <div style="position:relative; width: min(510px, 100%);">
-      <div style="
+      <div class="print-hide" style="
         position:absolute;
         inset: -20px;
         background: var(--paper);

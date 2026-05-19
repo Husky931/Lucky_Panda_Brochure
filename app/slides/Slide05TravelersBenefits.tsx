@@ -55,7 +55,7 @@ const slideHtml = `
 
   <div style="position:relative; min-height:100%; display:flex; align-items:center; justify-content:center; padding:92px 116px 92px 24px;">
     <div style="position:relative; width:704px; height:820px;">
-      <div style="
+      <div class="print-hide" style="
         position:absolute;
         left:44px;
         top:82px;
