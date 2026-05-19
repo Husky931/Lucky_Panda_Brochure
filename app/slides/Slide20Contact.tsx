@@ -59,9 +59,9 @@ const slideHtml = `
 
     <!-- right: WeChat QR + closing -->
     <div style="padding: 130px 130px 130px 30px; display:flex; flex-direction:column; justify-content:center; align-items:center; gap: 40px; position: relative;">
-      <div class="frame" style="padding: 56px 60px; text-align:center;">
+      <div class="frame" style="padding: 56px 60px; text-align:center; box-shadow: none;">
         <div class="eyebrow" style="font-size: 20px; margin-bottom: 22px;">Scan on WeChat</div>
-        <img src="/wechat_qr.png" alt="WeChat QR" style="width: 220px; height: 220px; display:block; margin: 0 auto; border: 8px solid var(--paper); box-shadow: 0 8px 24px -10px rgba(0,0,0,0.3); object-fit: cover;" />
+        <img src="/wechat_qr.png" alt="WeChat QR" style="width: 220px; height: 220px; display:block; margin: 0 auto; border: 8px solid var(--paper); object-fit: cover;" />
         <div style="margin-top: 22px; font-family:'Libre Baskerville'; font-style: italic; font-size: 28px; color: var(--ink-soft);">@luckypandaofficial</div>
       </div>
 
