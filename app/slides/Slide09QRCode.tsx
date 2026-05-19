@@ -34,23 +34,23 @@ const slideHtml = `
 
   <!-- right: feature copy -->
   <div class="paper-grain" style="
-    padding: 118px 130px 118px 88px;
+    padding: 90px 130px 90px 88px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     background: var(--cream);
   ">
-    <div class="eyebrow" style="margin-bottom: 26px;">Digital keepsake</div>
+    <div class="eyebrow" style="margin-bottom: 20px;">Digital keepsake</div>
 
-    <h2 class="serif-display" style="font-size: 82px; line-height: 1.02; margin: 0 0 18px; color: var(--ink);">
+    <h2 class="serif-display" style="font-size: 64px; line-height: 1.04; margin: 0 0 14px; color: var(--ink);">
       3 &mdash; QR code with digital content
     </h2>
 
-    <div style="font-family:'Dancing Script'; font-size: 48px; color: var(--magenta); line-height: 1.08; margin-bottom: 26px; max-width: 600px;">
+    <div style="font-family:'Dancing Script'; font-size: 40px; color: var(--magenta); line-height: 1.08; margin-bottom: 22px; max-width: 600px;">
       From a beautiful box to a digital branded moment.
     </div>
 
-    <p class="body" style="max-width: 650px; margin: 0 0 32px; color: var(--ink-soft);">
+    <p class="body" style="max-width: 650px; margin: 0 0 28px; color: var(--ink-soft);">
       We can place a custom QR card inside each gift, linking recipients to a
       secure video, landing page, campaign page, or any digital experience your
       team wants to create.
@@ -58,18 +58,18 @@ const slideHtml = `
 
     <div style="display:grid; grid-template-columns: 1fr; row-gap: 18px; max-width: 690px;">
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
-        <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 6px; color:var(--ink);">A message from the CEO or manager</h3>
-        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">A personal thank-you, holiday greeting, campaign note, or milestone message that feels direct and human.</p>
+        <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 8px; color:var(--ink);">A message from the CEO or manager</h3>
+        <p style="font-family:'Source Sans 3'; font-size:23px; line-height:1.42; margin:0; color:var(--ink-soft);">A personal thank-you, holiday greeting, campaign note, or milestone message that feels direct and human.</p>
       </div>
 
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
-        <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 6px; color:var(--ink);">A team highlight reel</h3>
-        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">A 60-90 second montage of the year: milestones, event photos, customer wins, internal moments, and music. Especially strong for year-end gifting.</p>
+        <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 8px; color:var(--ink);">A team highlight reel</h3>
+        <p style="font-family:'Source Sans 3'; font-size:23px; line-height:1.42; margin:0; color:var(--ink-soft);">A 60-90 second montage of the year: milestones, event photos, customer wins, internal moments, and music. Especially strong for year-end gifting.</p>
       </div>
 
       <div style="border-top: 1px solid var(--hairline); padding-top: 18px;">
-        <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 6px; color:var(--ink);">Custom digital solutions</h3>
-        <p style="font-family:'Source Sans 3'; font-size:19px; line-height:1.38; margin:0; color:var(--ink-soft);">Private landing pages, event invitations, surveys, employee recognition walls, or campaign microsites built around the gift.</p>
+        <h3 class="serif-display" style="font-size: 31px; line-height:1.05; margin:0 0 8px; color:var(--ink);">Custom digital solutions</h3>
+        <p style="font-family:'Source Sans 3'; font-size:23px; line-height:1.42; margin:0; color:var(--ink-soft);">Private landing pages, event invitations, surveys, employee recognition walls, or campaign microsites built around the gift.</p>
       </div>
     </div>
   </div>

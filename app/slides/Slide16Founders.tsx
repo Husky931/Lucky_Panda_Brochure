@@ -21,13 +21,13 @@ const slideHtml = `
       Why We Started
     </h2>
 
-    <p class="body" style="margin: 0 0 20px; max-width: 580px; font-size: 22px; font-style: italic;">
+    <p class="body" style="margin: 0 0 20px; max-width: 580px; font-size: 25px; font-style: italic; line-height: 1.5;">
       We came to Shanghai from different places, with different stories, and found ourselves drawn to the same thing: the energy of this city, and the way people here build, celebrate, and connect.
     </p>
-    <p class="body" style="margin: 0 0 20px; max-width: 580px; font-size: 22px; font-style: italic;">
+    <p class="body" style="margin: 0 0 20px; max-width: 580px; font-size: 25px; font-style: italic; line-height: 1.5;">
       With backgrounds across marketing, business, and brand experiences, we saw how much meaning a thoughtful gift could carry, especially when it feels personal rather than corporate.
     </p>
-    <p class="body-tight" style="margin: 0 0 26px; max-width: 580px; font-size: 22px; font-style: italic;">
+    <p class="body-tight" style="margin: 0 0 26px; max-width: 580px; font-size: 25px; font-style: italic; line-height: 1.5;">
      After years of travel, tasting, sourcing, and collecting ideas from different cultures, Lucky Panda became our way of bringing those discoveries to Chinese companies through creative gifting that feels warm, polished, memorable, and, when needed, experimental and creatively bold.
     </p>
 

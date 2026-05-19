@@ -45,7 +45,7 @@ const slideHtml = `
     <h3 class="serif-display" style="font-size: 50px; line-height: 1.02; margin: 0 0 16px; color: var(--ink);">
       Experiences to make, taste, and talk about.
     </h3>
-    <p class="body-tight" style="font-size: 21px; line-height:1.42; margin: 0 0 30px; max-width: 720px;">
+    <p class="body-tight" style="font-size: 25px; line-height:1.42; margin: 0 0 30px; max-width: 720px;">
       Hosted in a warm, social format for teams, clients, events, or private groups.
     </p>
 
@@ -54,13 +54,13 @@ const slideHtml = `
         <img
           src="/used/slide_16/cocktails.png"
           alt="Cocktail making class"
-          style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center; box-shadow: 0 20px 46px -30px rgba(43,31,26,0.45);"
+          style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center;"
         />
         <div>
           <h4 class="serif-display" style="font-size: 33px; line-height:1.05; margin:0 0 9px; color:var(--ink);">
             Popular cocktail-making classes
           </h4>
-          <p style="font-family:'Source Sans 3'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
+          <p style="font-family:'Source Sans 3'; font-size:22px; line-height:1.36; margin:0; color:var(--ink-soft);">
             Shaken classics, simple techniques, and a lively format that works for after-work groups.
           </p>
         </div>
@@ -70,13 +70,13 @@ const slideHtml = `
         <img
           src="/used/slide_16/cooking.png"
           alt="Cooking class"
-          style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center; box-shadow: 0 20px 46px -30px rgba(43,31,26,0.45);"
+          style="display:block; width:100%; aspect-ratio: 13 / 8.5; object-fit:cover; object-position:center;"
         />
         <div>
           <h4 class="serif-display" style="font-size: 33px; line-height:1.05; margin:0 0 9px; color:var(--ink);">
             Cooking classes: make a popular foreign dish
           </h4>
-          <p style="font-family:'Source Sans 3'; font-size:18px; line-height:1.36; margin:0; color:var(--ink-soft);">
+          <p style="font-family:'Source Sans 3'; font-size:22px; line-height:1.36; margin:0; color:var(--ink-soft);">
             A hands-on session where guests learn, cook together, and sit down with something they made.
           </p>
         </div>

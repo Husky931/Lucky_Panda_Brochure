@@ -18,7 +18,7 @@ const slideHtml = `
       From the box to every piece inside.
     </div>
 
-    <p style="font-family:'Source Sans 3'; font-size: 20px; line-height: 1.52; max-width: 540px; margin: 0; color: var(--ink-soft);">
+    <p style="font-family:'Source Sans 3'; font-size: 26px; line-height: 1.55; max-width: 600px; margin: 0; color: var(--ink-soft);">
       From the box itself to the products inside and supplementary items, each gift can be tailored to your brand, your occasion, and the people receiving it — with co-design available alongside HR and PR teams.
     </p>
   </div>

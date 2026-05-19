@@ -14,15 +14,15 @@ const slideHtml = `
     </h2>
     <div style="width: 88px; height: 1px; background: var(--gold-soft); margin-bottom: 32px;"></div>
 
-    <p style="font-family:'Source Sans 3'; font-size: 21px; line-height: 1.52; max-width: 640px; margin: 0 0 26px; color: var(--ink-soft);">
+    <p style="font-family:'Source Sans 3'; font-size: 26px; line-height: 1.55; max-width: 660px; margin: 0 0 24px; color: var(--ink-soft);">
       Every month, a new destination. Every box is mostly a collection of country based edibles &mdash; snacks, sweets, all sorts of interesting and authentic treats that have the goal of bringing as closely of an authentic experience as possible to the client.
     </p>
 
-    <p style="font-family:'Source Sans 3'; font-size: 21px; line-height: 1.52; max-width: 640px; margin: 0 0 26px; color: var(--ink-soft);">
+    <p style="font-family:'Source Sans 3'; font-size: 26px; line-height: 1.55; max-width: 660px; margin: 0 0 24px; color: var(--ink-soft);">
       Each edition is researched, tasted, and curated to capture the original flavour of a place.
     </p>
 
-    <p style="font-family:'Source Sans 3'; font-size: 21px; line-height: 1.52; max-width: 640px; margin: 0; color: var(--ink-soft);">
+    <p style="font-family:'Source Sans 3'; font-size: 26px; line-height: 1.55; max-width: 660px; margin: 0; color: var(--ink-soft);">
       When possible, we also include a carefully chosen country-specific item &mdash; we deliberately pick something local and usefull that we think the receiver can either use in their daily live or work.
     </p>
   </div>

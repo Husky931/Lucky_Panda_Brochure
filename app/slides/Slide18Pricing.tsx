@@ -25,7 +25,7 @@ const slideHtml = `
         <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥145</span>
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
-      <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 19px; color: var(--ink); flex: 1;">
+      <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 22px; line-height: 1.4; color: var(--ink); flex: 1;">
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>5 curated products</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Personal note for each recipient</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Single-address delivery</li>
@@ -42,7 +42,7 @@ const slideHtml = `
         <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥198</span>
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
-      <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 19px; color: var(--ink); flex: 1;">
+      <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 22px; line-height: 1.4; color: var(--ink); flex: 1;">
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>8 curated products</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Personal note for each recipient</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Custom QR digital experience</li>
@@ -59,7 +59,7 @@ const slideHtml = `
         <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥499</span>
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
-      <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 19px; color: var(--ink); flex: 1;">
+      <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 22px; line-height: 1.4; color: var(--ink); flex: 1;">
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>12 products, including 3 premium selections</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Personal note for each recipient</li>
         <li style="display:flex; gap: 14px; align-items:flex-start;"><span class="dot-mark" style="margin-top:8px;"></span>Custom QR digital experience</li>
@@ -72,10 +72,10 @@ const slideHtml = `
   </div>
 
   <div style="border-top: 1px solid var(--hairline); padding-top: 20px; display:flex; justify-content:space-between; gap: 40px; align-items:flex-start;">
-    <p style="font-family:'Source Sans 3'; font-size: 16px; line-height:1.45; color: var(--ink-soft); margin:0; max-width: 670px;">
+    <p style="font-family:'Source Sans 3'; font-size: 19px; line-height:1.5; color: var(--ink-soft); margin:0; max-width: 870px;">
       Pricing shown per box in RMB. Final quotes can reflect quantity, delivery needs, and custom requests.
     </p>
-    <p style="font-family:'Source Sans 3'; font-size: 16px; line-height:1.45; color: var(--ink); margin:0; max-width: 720px; text-align:right;">
+    <p style="font-family:'Source Sans 3'; font-size: 19px; line-height:1.5; color: var(--ink); margin:0; max-width: 720px; text-align:right;">
       Orders above 100 boxes are eligible for volume discount pricing.
     </p>
   </div>
@@ -88,7 +88,7 @@ export default function Slide18Pricing() {
       className="paper-grain"
       style={{
         background: "var(--cream)",
-        padding: "96px 130px 84px",
+        padding: "70px 130px 70px",
         display: "grid",
         gridTemplateRows: "auto 1fr auto",
         gap: "38px",

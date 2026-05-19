@@ -8,8 +8,8 @@ const slideHtml = `
     </div>
   </div>
 
-  <div style="padding: 112px 118px 118px 28px; display:flex; align-items:center;">
-    <div style="position:relative; width:100%;">
+  <div style="padding: 60px 118px 150px 28px; display:flex; align-items:center; justify-content:center;">
+    <div style="position:relative; width:78%;">
       <div class="photo photo-frame" style="
         width:100%;
         aspect-ratio: 990 / 1280;
@@ -17,21 +17,6 @@ const slideHtml = `
         background-position:center;
         transform:rotate(2deg);
       "></div>
-
-      <div style="
-        position:absolute;
-        left:-54px;
-        bottom:-34px;
-        width:424px;
-        background:var(--paper);
-        padding:20px 32px 22px;
-        border:1px solid var(--hairline);
-        transform:rotate(-3deg);
-        box-shadow:0 18px 34px -18px rgba(43,31,26,0.26);
-      ">
-        <div style="font-family:'Dancing Script'; font-size:34px; line-height:1; color:var(--magenta);">French-inspired snack box</div>
-        <div style="font-family:'Source Sans 3'; font-size:14px; letter-spacing:0.22em; text-transform:uppercase; color:var(--ink-soft); margin-top:8px;">sweet and savory treats</div>
-      </div>
     </div>
   </div>
 `;
