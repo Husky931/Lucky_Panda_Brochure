@@ -22,7 +22,7 @@ const slideHtml = `
       <div class="serif-italic" style="font-size: 22px; color: var(--magenta); margin-bottom: 28px;">A thoughtful country discovery</div>
 
       <div style="display:flex; align-items:baseline; gap: 8px; margin-bottom: 28px;">
-        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥145</span>
+        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥ 145</span>
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
       <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 22px; line-height: 1.4; color: var(--ink); flex: 1;">
@@ -39,7 +39,7 @@ const slideHtml = `
       <div class="serif-italic" style="font-size: 22px; color: var(--magenta); margin-bottom: 28px;">The signature team-gifting edition</div>
 
       <div style="display:flex; align-items:baseline; gap: 8px; margin-bottom: 28px;">
-        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥198</span>
+        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥ 198</span>
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
       <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 22px; line-height: 1.4; color: var(--ink); flex: 1;">
@@ -56,7 +56,7 @@ const slideHtml = `
       <div class="serif-italic" style="font-size: 22px; color: var(--magenta); margin-bottom: 28px;">A fully bespoke gifting experience</div>
 
       <div style="display:flex; align-items:baseline; gap: 8px; margin-bottom: 28px;">
-        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥499</span>
+        <span style="font-family:'Libre Baskerville'; font-size: 64px; font-weight:600; color: var(--ink);">¥ 499</span>
         <span style="font-family:'Source Sans 3'; font-size: 16px; color: var(--ink-soft);">/ box</span>
       </div>
       <ul style="list-style:none; padding:0; margin: 0; display:flex; flex-direction:column; gap: 14px; font-family:'Source Sans 3'; font-size: 22px; line-height: 1.4; color: var(--ink); flex: 1;">
